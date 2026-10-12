@@ -1,0 +1,212 @@
+{
+ "_": "Each club's postseason for the season in hand — the rounds, their dates and the final's site — shown in the Teams view as 'if they qualify' until the real games arrive (the schedules flag those playoff: true, and a round with a real game in its window gives way to it). Hand-kept: update each season from the leagues' announcements. tbd: true marks a round whose dates are the usual calendar, not yet announced. Drafted 2026-10-11 (Las Vegas): NFL and NHL rounds as Chicago's (the NFL's the league's published 2026 dates), WNBA as the Sky's, PCL and Calder Cup as Austin's and San Diego's, the Mountain West, the USL and the bowl season from the leagues' usual calendars.",
+ "goldenknights": {
+  "season": "2026–27",
+  "rounds": [
+   {
+    "name": "Stanley Cup Playoffs, first round",
+    "start": "2027-04-12",
+    "end": "2027-04-30",
+    "tbd": true
+   },
+   {
+    "name": "Second round",
+    "start": "2027-05-01",
+    "end": "2027-05-15",
+    "tbd": true
+   },
+   {
+    "name": "Conference Final",
+    "start": "2027-05-16",
+    "end": "2027-06-01",
+    "tbd": true
+   },
+   {
+    "name": "Stanley Cup Final",
+    "start": "2027-06-03",
+    "end": "2027-06-20",
+    "tbd": true,
+    "final": true
+   }
+  ]
+ },
+ "raiders": {
+  "season": "2026",
+  "rounds": [
+   {
+    "name": "Wild Card",
+    "start": "2027-01-16",
+    "end": "2027-01-18"
+   },
+   {
+    "name": "Divisional",
+    "start": "2027-01-23",
+    "end": "2027-01-24"
+   },
+   {
+    "name": "AFC Championship",
+    "start": "2027-01-31",
+    "end": "2027-01-31"
+   },
+   {
+    "name": "Super Bowl LXI",
+    "start": "2027-02-14",
+    "end": "2027-02-14",
+    "site": "SoFi Stadium, Inglewood",
+    "final": true
+   }
+  ]
+ },
+ "aces": {
+  "season": "2026",
+  "rounds": [
+   {
+    "name": "WNBA Playoffs, first round",
+    "start": "2026-09-13",
+    "end": "2026-09-20",
+    "tbd": true
+   },
+   {
+    "name": "Semifinals",
+    "start": "2026-09-21",
+    "end": "2026-09-30",
+    "tbd": true
+   },
+   {
+    "name": "WNBA Finals",
+    "start": "2026-10-02",
+    "end": "2026-10-15",
+    "tbd": true,
+    "final": true
+   }
+  ]
+ },
+ "aviators": {
+  "season": "2026",
+  "rounds": [
+   {
+    "name": "PCL Championship Series",
+    "start": "2026-09-22",
+    "end": "2026-09-26",
+    "tbd": true
+   },
+   {
+    "name": "Triple-A National Championship",
+    "start": "2026-09-29",
+    "end": "2026-09-29",
+    "tbd": true,
+    "site": "Las Vegas Ballpark",
+    "final": true
+   }
+  ]
+ },
+ "silverknights": {
+  "season": "2026–27",
+  "rounds": [
+   {
+    "name": "Calder Cup Playoffs, first round",
+    "start": "2027-04-21",
+    "end": "2027-04-28",
+    "tbd": true
+   },
+   {
+    "name": "Division Finals",
+    "start": "2027-04-30",
+    "end": "2027-05-10",
+    "tbd": true
+   },
+   {
+    "name": "Conference Finals",
+    "start": "2027-05-13",
+    "end": "2027-05-24",
+    "tbd": true
+   },
+   {
+    "name": "Calder Cup Finals",
+    "start": "2027-05-28",
+    "end": "2027-06-12",
+    "tbd": true,
+    "final": true
+   }
+  ]
+ },
+ "rebels": {
+  "season": "2026",
+  "rounds": [
+   {
+    "name": "Mountain West Championship",
+    "start": "2026-12-05",
+    "end": "2026-12-05",
+    "tbd": true
+   },
+   {
+    "name": "Bowl season",
+    "start": "2026-12-13",
+    "end": "2027-01-02",
+    "tbd": true,
+    "final": true
+   }
+  ]
+ },
+ "runninrebels": {
+  "season": "2026–27",
+  "rounds": [
+   {
+    "name": "Mountain West Tournament",
+    "start": "2027-03-09",
+    "end": "2027-03-13",
+    "tbd": true,
+    "site": "Thomas & Mack Center"
+   },
+   {
+    "name": "NCAA Tournament, first rounds",
+    "start": "2027-03-18",
+    "end": "2027-03-21",
+    "tbd": true
+   },
+   {
+    "name": "Sweet 16 and Elite Eight",
+    "start": "2027-03-25",
+    "end": "2027-03-28",
+    "tbd": true
+   },
+   {
+    "name": "Final Four",
+    "start": "2027-04-03",
+    "end": "2027-04-05",
+    "tbd": true,
+    "final": true
+   }
+  ]
+ },
+ "lights": {
+  "season": "2026",
+  "rounds": [
+   {
+    "name": "USL Championship Playoffs, conference quarterfinals",
+    "start": "2026-10-31",
+    "end": "2026-11-01",
+    "tbd": true
+   },
+   {
+    "name": "Conference Semifinals",
+    "start": "2026-11-07",
+    "end": "2026-11-08",
+    "tbd": true
+   },
+   {
+    "name": "Conference Finals",
+    "start": "2026-11-14",
+    "end": "2026-11-15",
+    "tbd": true
+   },
+   {
+    "name": "USL Championship Final",
+    "start": "2026-11-21",
+    "end": "2026-11-22",
+    "tbd": true,
+    "final": true
+   }
+  ]
+ }
+}

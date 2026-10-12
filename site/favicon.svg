@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#1b2733"/>
+  <!-- Sphere lit at night over the Strip: the globe, its glow, the boulevard's lights -->
+  <circle cx="16" cy="14" r="9" fill="#ff5a9e" opacity=".28"/>
+  <circle cx="16" cy="14" r="7" fill="#ff2d87"/>
+  <circle cx="13.5" cy="11.5" r="2.6" fill="#ffd1e6" opacity=".7"/>
+  <rect x="2" y="24" width="28" height="6" fill="#0f1620"/>
+  <path d="M4 26h2M9 26h2M14 26h4M21 26h2M26 26h2" stroke="#f5b800" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

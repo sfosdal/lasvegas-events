@@ -1,0 +1,11 @@
+{
+  "_": "Off-season blurbs for the Teams view's form block (app.js renderTeamForm): shown before a season starts and once one is well over. Plain text, one per team slug. Edit freely — nothing generates this file.",
+  "goldenknights": "The Golden Knights' NHL season runs early October to mid April at T-Mobile Arena, 41 home dates, with the Stanley Cup playoffs beyond that; the schedule lands in late June.",
+  "raiders": "The Raiders' season runs September to early January at Allegiant Stadium, eight or nine home Sundays plus the preseason in August; the schedule is published in May.",
+  "aces": "The Aces' WNBA season runs May to September at Michelob ULTRA Arena, 22 home dates, with the playoffs into October; the schedule arrives over the winter.",
+  "aviators": "The Aviators' Pacific Coast League season runs late March to September at Las Vegas Ballpark, 75 home dates in six-game series; the schedule is out by the autumn before.",
+  "silverknights": "The Silver Knights' AHL season runs October to April at Lee's Family Forum in Henderson, 36 home dates, with the Calder Cup playoffs beyond that.",
+  "rebels": "Rebels football runs late August to November at Allegiant Stadium, six or seven home Saturdays, with the Mountain West championship and a bowl beyond that.",
+  "runninrebels": "The Runnin' Rebels' season runs early November to March at the Thomas & Mack, with the Mountain West tournament there and the NCAA tournament beyond it; the non-conference slate fills in over the summer.",
+  "lights": "Lights FC's USL Championship season runs March to October at Cashman Field, 17 home matches, with the playoffs into November; the fixture list arrives over the winter."
+}
