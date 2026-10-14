@@ -1303,6 +1303,22 @@
    "url": "https://www.ticketmaster.com/dita-von-teese-las-vegas-nevada-10-11-2026/event/17006513D39F493F",
    "age21": true,
    "type": "arts"
+  },
+  {
+   "venue": "T-Mobile Arena",
+   "title": "Los Angeles Lakers vs Golden State Warriors at T-Mobile Arena",
+   "date": "2026-10-13",
+   "time": "19:00:00",
+   "url": "https://www.t-mobilearena.com/events",
+   "type": "sports"
+  },
+  {
+   "venue": "Virgin Theater",
+   "title": "Beat",
+   "date": "2026-10-13",
+   "time": "19:30:00",
+   "url": "https://virginhotelslv.com/venue/the-theater/",
+   "type": "concert"
   }
  ]
 }
