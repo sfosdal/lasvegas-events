@@ -21,7 +21,7 @@
   --v-colosseum: #4a9e2e; --v-phlive: #332e9e; --v-resortsworld: #9e532e; --v-fontainebleau: #2e9e74; --v-chelsea: #952e9e; --v-virgin: #879e2e;
   --v-encore: #2e669e; --v-venetian: #9e2e45; --v-pearl: #2e9e37; --v-voltaire: #582e9e; --v-thomasmack: #9e792e; --v-ballpark: #2e9e9a;
   --v-leesforum: #9e2e82; --v-cashman: #619e2e; --v-orleans: #2e409e; --v-speedway: #9e3c2e; --v-reynolds: #2e9e5d; --v-hob: #7e2e9e;
-  --v-brooklynbowl: #9e9e2e;
+  --v-brooklynbowl: #9e9e2e; --v-westgate: #2e9e85; --v-palazzo: #9e2e58; --v-oxford: #3e2e9e; --v-shagroom: #2e9e2e; --v-southpoint: #2e589e; --v-goldennugget: #9e8a2e;
   --venue-text: 72%;     /* how much of the venue hue the card's venue label keeps (light mode) */
   --tint: 26%;           /* the venue wash behind each card (light mode; 13% in the dark palette) */
   /* event-type hues (calendar ticks, agenda right edge): concerts salmon and
@@ -80,7 +80,7 @@
   --v-colosseum: #9fea86; --v-phlive: #8a86ea; --v-resortsworld: #eaa786; --v-fontainebleau: #86eac4; --v-chelsea: #e186ea; --v-virgin: #d5ea86;
   --v-encore: #86b7ea; --v-venetian: #ea869a; --v-pearl: #86ea8e; --v-voltaire: #ab86ea; --v-thomasmack: #eac886; --v-ballpark: #86eae6;
   --v-leesforum: #ea86d0; --v-cashman: #b3ea86; --v-orleans: #8696ea; --v-speedway: #ea9286; --v-reynolds: #86eab0; --v-hob: #cd86ea;
-  --v-brooklynbowl: #e9ea86;
+  --v-brooklynbowl: #e9ea86; --v-westgate: #86ead7; --v-palazzo: #ea86ad; --v-oxford: #9486ea; --v-shagroom: #86ea86; --v-southpoint: #86adea; --v-goldennugget: #ead686;
   --venue-text: 100%; --tint: 13%;
   --t-concert: #f0806a; --t-sports: #f2d21b; --t-arts: #d63a4f;
   --t-movie: #8b9db0; --t-community: #e660a8; --t-expo: #4fd1c5; --t-bar: #e3ad3c; --alert: #ff4b3e;

@@ -96,6 +96,9 @@
   //            the same hue as a value, for the series graph
   //   url      the venue's own events listing — not a ticket vendor
   //   icon     a mark for listings without a team crest
+  //   feed     the room's own calendar when Ticketmaster has none (scripts/feeds.mjs:
+  //            { kind, url, rooms?, drop?, maxRepeat? }; `rooms` keeps the one
+  //            room out of a resort-wide feed)
   //   tm       its Ticketmaster Discovery listing (fetch-events.mjs reads
   //            the venue by id — every page). There is NO city sweep here:
   //            the API stops a query at its thousandth event, and the
@@ -267,6 +270,46 @@
       tm: { id: 'KovZ917AcQF', match: 'voltaire', fallbackUrl: 'https://www.voltairelv.com/', exclude: /hotel packages/i },
       alias: /voltaire/i,
     },
+    'Westgate International Theater': { // Elvis's old room: the Manilow residency and the oldies; the VIP passes and the theater tour are dropped
+      capacity: 1600,
+      type: 'concert',
+      cssVar: '--v-westgate',
+      color: '#86ead7',
+      url: 'https://www.westgateresorts.com/hotels/nevada/las-vegas/westgate-las-vegas-resort-casino/entertainment/',
+      icon: 'https://www.google.com/s2/favicons?domain=www.westgateresorts.com&sz=128',
+      tm: { id: 'KovZ917AOoO', match: 'international theater', fallbackUrl: 'https://www.westgateresorts.com/hotels/nevada/las-vegas/westgate-las-vegas-resort-casino/entertainment/', exclude: /\bvip\b|hotel packages/i },
+      alias: /international theater|westgate/i,
+    },
+    'Palazzo Theatre': { // the comedy one-nighters; Shin Lim's nightly run (179 dates) is dropped
+      capacity: 1800,
+      type: 'arts',
+      cssVar: '--v-palazzo',
+      color: '#ea86ad',
+      url: 'https://www.venetianlasvegas.com/entertainment.html',
+      icon: 'https://www.google.com/s2/favicons?domain=www.venetianlasvegas.com&sz=128',
+      tm: { id: 'KovZpZA1nItA', match: 'palazzo', fallbackUrl: 'https://www.venetianlasvegas.com/entertainment.html', exclude: /shin lim|hotel packages/i },
+      alias: /palazzo/i,
+    },
+    '24 Oxford': { // Virgin Hotels' club room
+      capacity: 1000,
+      type: 'concert',
+      cssVar: '--v-oxford',
+      color: '#9486ea',
+      url: 'https://virginhotelslv.com/entertainment/',
+      icon: 'https://www.google.com/s2/favicons?domain=virginhotelslv.com&sz=128',
+      tm: { id: 'KovZ917AVCs', match: '24 oxford', fallbackUrl: 'https://virginhotelslv.com/entertainment/', exclude: /hotel packages/i },
+      alias: /24 oxford/i,
+    },
+    'The Shag Room': { // Virgin Hotels' free lounge stage, read from the resort's own calendar (The Events Calendar; the feed covers every room, `rooms` keeps this one — the Theater and 24 Oxford come from Ticketmaster); the open-mic nights are dropped
+      capacity: 200,
+      type: 'concert',
+      cssVar: '--v-shagroom',
+      color: '#86ea86',
+      url: 'https://virginhotelslv.com/entertainment/',
+      icon: 'https://www.google.com/s2/favicons?domain=virginhotelslv.com&sz=128',
+      feed: { kind: 'tribe', url: 'https://virginhotelslv.com/wp-json/tribe/events/v1/events', rooms: /shag room/i, drop: /open mic/i },
+      alias: /shag room/i,
+    },
     // --- Beyond the Strip (`area: 'town'`): the UNLV campus, Summerlin's ballpark, Henderson's arena, downtown, the Orleans, the Speedway, the Smith Center, the Mandalay Bay and Linq music rooms ---
     'Thomas & Mack Center': {
       area: 'town',
@@ -367,10 +410,32 @@
       tm: { id: 'KovZpZAIeldA', match: 'brooklyn bowl', fallbackUrl: 'https://www.brooklynbowl.com/las-vegas/' },
       alias: /brooklyn bowl/i,
     },
+    'South Point Showroom': { // the oldies and tribute acts south of the Strip; the Spazmatics' standing dates are dropped
+      area: 'town',
+      capacity: 400,
+      type: 'concert',
+      cssVar: '--v-southpoint',
+      color: '#86adea',
+      url: 'https://southpointcasino.com/entertainment/showroom/',
+      icon: 'https://www.google.com/s2/favicons?domain=southpointcasino.com&sz=128',
+      tm: { id: 'KovZpZAEFI6A', match: 'south point', fallbackUrl: 'https://southpointcasino.com/entertainment/showroom/', exclude: /spazmatics|hotel packages/i },
+      alias: /south point/i,
+    },
+    'Golden Nugget Showroom': { // downtown's showroom: the country and classic-rock one-nighters, Gordie Brown's run
+      area: 'town',
+      capacity: 600,
+      type: 'concert',
+      cssVar: '--v-goldennugget',
+      color: '#ead686',
+      url: 'https://www.goldennugget.com/las-vegas/entertainment/',
+      icon: 'https://www.google.com/s2/favicons?domain=www.goldennugget.com&sz=128',
+      tm: { id: 'KovZpZAJlvvA', match: 'golden nugget', fallbackUrl: 'https://www.goldennugget.com/las-vegas/entertainment/', exclude: /hotel packages/i },
+      alias: /golden nugget/i,
+    },
   };
 
   // The usual view: every room on — nothing here lists nightly bar programs
-  var DEFAULT_ON = ['Sphere', 'T-Mobile Arena', 'Allegiant Stadium', 'MGM Grand Garden Arena', 'Michelob ULTRA Arena', 'Dolby Live', 'The Colosseum', 'PH Live', 'Resorts World Theatre', 'Fontainebleau', 'The Chelsea', 'Virgin Theater', 'Encore Theater', 'The Venetian Theatre', 'Pearl Concert Theater', 'Voltaire', 'Thomas & Mack Center', 'Las Vegas Ballpark', "Lee's Family Forum", 'Cashman Field', 'Orleans Arena', 'Las Vegas Motor Speedway', 'Reynolds Hall', 'House of Blues', 'Brooklyn Bowl'];
+  var DEFAULT_ON = ['Sphere', 'T-Mobile Arena', 'Allegiant Stadium', 'MGM Grand Garden Arena', 'Michelob ULTRA Arena', 'Dolby Live', 'The Colosseum', 'PH Live', 'Resorts World Theatre', 'Fontainebleau', 'The Chelsea', 'Virgin Theater', 'Encore Theater', 'The Venetian Theatre', 'Pearl Concert Theater', 'Voltaire', 'Thomas & Mack Center', 'Las Vegas Ballpark', "Lee's Family Forum", 'Cashman Field', 'Orleans Arena', 'Las Vegas Motor Speedway', 'Reynolds Hall', 'House of Blues', 'Brooklyn Bowl', 'Westgate International Theater', 'Palazzo Theatre', '24 Oxford', 'The Shag Room', 'South Point Showroom', 'Golden Nugget Showroom'];
   var DEFAULT_OFF = [];
   var PREFS_KNOWN_FROM = null; // no default-off venue yet, so nothing for saved prefs to be told about
 
@@ -395,6 +460,8 @@
     ['badge', 'concert'], ['badge', 'sports'], ['badge', 'arts'], ['badge', 'community'],
     ['team', 'goldenknights'], ['team', 'raiders'], ['team', 'aces'], ['team', 'aviators'], ['team', 'silverknights'], ['team', 'rebels'], ['team', 'runninrebels'], ['team', 'lights'],
     ['cap', 'stadium'], ['cap', 'arena'], ['cap', 'hall'], ['cap', 'room'],
+    // the rooms added 2026-10-14, after the first codes were shared — new keys go at the end so old codes keep their meaning
+    ['venue', 'Westgate International Theater'], ['venue', 'Palazzo Theatre'], ['venue', '24 Oxford'], ['venue', 'The Shag Room'], ['venue', 'South Point Showroom'], ['venue', 'Golden Nugget Showroom'],
   ];
 
   // The words the page uses for the place
