@@ -1360,6 +1360,78 @@
    "date": "2026-10-14",
    "time": "20:00:00",
    "url": "https://www.deccalive.com/"
+  },
+  {
+   "venue": "T-Mobile Arena",
+   "title": "Vegas Golden Knights vs. Calgary Flames",
+   "date": "2026-10-15",
+   "time": "19:00:00",
+   "url": "https://www.t-mobilearena.com/events",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "SN1",
+     "TVAS",
+     "SCRIPPS"
+    ]
+   }
+  },
+  {
+   "venue": "Westgate International Theater",
+   "title": "Barry Manilow",
+   "date": "2026-10-15",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-10-15-2026/event/170062F0FD4E6358",
+   "type": "concert"
+  },
+  {
+   "venue": "Brooklyn Bowl",
+   "title": "Steel Pulse - Reggae Against Racism Tour",
+   "date": "2026-10-15",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/steel-pulse-reggae-against-racism-tour-las-vegas-nevada-10-15-2026/event/170064E79F4F9EB0",
+   "type": "concert"
+  },
+  {
+   "venue": "Golden Nugget Showroom",
+   "title": "Gordie Brown",
+   "date": "2026-10-15",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/gordie-brown-las-vegas-nevada-10-15-2026/event/170064F5C152C8F9",
+   "type": "arts"
+  },
+  {
+   "venue": "The Shag Room",
+   "title": "Jessica Manalo",
+   "date": "2026-10-15",
+   "time": "20:00",
+   "url": "https://virginhotelslv.com/event/jessica-manalo/2026-10-15/",
+   "type": "concert"
+  },
+  {
+   "venue": "Pearl Concert Theater",
+   "title": "Big Boy's Comedy Fiesta w/George Lopez & Marlon Wayans",
+   "date": "2026-10-15",
+   "time": "20:00:00",
+   "url": "https://www.axs.com/events/1568086/big-boys-comedy-fiesta-w-george-lopez-marlon-wayans-tickets?skin=palmscasinoresort",
+   "type": "arts"
+  },
+  {
+   "venue": "Voltaire",
+   "title": "Dita Von Teese",
+   "date": "2026-10-15",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/dita-von-teese-las-vegas-nevada-10-15-2026/event/17006513D3A14943",
+   "age21": true,
+   "type": "arts"
+  },
+  {
+   "venue": "Sphere",
+   "title": "Metallica: Life Burns Faster",
+   "date": "2026-10-15",
+   "time": "20:30:00",
+   "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-15-2026/event/17006455FF51D56A",
+   "type": "concert"
   }
  ]
 }
