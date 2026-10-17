@@ -1432,6 +1432,124 @@
    "time": "20:30:00",
    "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-15-2026/event/17006455FF51D56A",
    "type": "concert"
+  },
+  {
+   "venue": "Lee's Family Forum",
+   "title": "Phil Wickham",
+   "date": "2026-10-16",
+   "time": "19:00:00",
+   "url": "https://leesfamilyforum.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Brooklyn Bowl",
+   "title": "Easy Star All-Stars",
+   "date": "2026-10-16",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/easy-star-allstars-las-vegas-nevada-10-16-2026/event/170064F1045BD7CD",
+   "type": "concert"
+  },
+  {
+   "venue": "The Shag Room",
+   "title": "Dre Woods",
+   "date": "2026-10-16",
+   "time": "20:00",
+   "url": "https://virginhotelslv.com/event/dre-woods-5/2026-10-16/",
+   "type": "concert"
+  },
+  {
+   "venue": "Michelob ULTRA Arena",
+   "title": "Chayanne",
+   "date": "2026-10-16",
+   "time": "20:00:00",
+   "url": "https://www.mandalaybay.com",
+   "type": "concert"
+  },
+  {
+   "venue": "Dolby Live",
+   "title": "New Kids On the Block: The Right Stuff Las Vegas Residency",
+   "date": "2026-10-16",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/new-kids-on-the-block-the-las-vegas-nevada-10-16-2026/event/2E006358A7F80D29",
+   "type": "concert"
+  },
+  {
+   "venue": "Fontainebleau",
+   "title": "Keith Urban: Live In Las Vegas",
+   "date": "2026-10-16",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/keith-urban-live-in-las-vegas-las-vegas-nevada-10-16-2026/event/1700647FDBDDBDDE",
+   "type": "concert"
+  },
+  {
+   "venue": "The Chelsea",
+   "title": "Deorro: Botas y Rave",
+   "date": "2026-10-16",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/deorro-botas-y-rave-las-vegas-nevada-10-16-2026/event/17006522D17A3722",
+   "type": "concert"
+  },
+  {
+   "venue": "Voltaire",
+   "title": "Dita Von Teese",
+   "date": "2026-10-16",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/dita-von-teese-las-vegas-nevada-10-16-2026/event/17006513D3A24945",
+   "age21": true,
+   "type": "arts"
+  },
+  {
+   "venue": "Westgate International Theater",
+   "title": "Barry Manilow",
+   "date": "2026-10-16",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-10-16-2026/event/170062F0FD51635B",
+   "type": "concert"
+  },
+  {
+   "venue": "Golden Nugget Showroom",
+   "title": "Warrant",
+   "date": "2026-10-16",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/warrant-las-vegas-nevada-10-16-2026/event/170064FC9505966F",
+   "type": "concert"
+  },
+  {
+   "venue": "The Venetian Theatre",
+   "title": "Earth, Wind & Fire",
+   "date": "2026-10-16",
+   "time": "20:30:00",
+   "url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-16-2026/event/17006465DF19250E",
+   "type": "concert"
+  },
+  {
+   "venue": "24 Oxford",
+   "title": "DJ Meredith Marks: You. Can. Dance. Tour",
+   "date": "2026-10-16",
+   "time": "21:00:00",
+   "url": "https://www.ticketmaster.com/dj-meredith-marks-you-can-dance-las-vegas-nevada-10-16-2026/event/1700652ABCD8E160",
+   "type": "concert",
+   "status": "cancelled",
+   "statusSince": "2026-10-14T20:41:37.836Z"
+  },
+  {
+   "venue": "Palazzo Theatre",
+   "title": "Jay & Silent Bob Save Vegas!",
+   "date": "2026-10-16",
+   "time": "21:30:00",
+   "url": "https://www.ticketmaster.com/jay-silent-bob-save-vegas-las-vegas-nevada-10-16-2026/event/1700648FCFDD899D",
+   "type": "arts"
+  },
+  {
+   "venue": "Voltaire",
+   "title": "Damage Inc. Metallica Tribute Band After Party",
+   "date": "2026-10-16",
+   "time": "23:00:00",
+   "url": "https://www.ticketmaster.com/damage-inc-metallica-tribute-band-after-las-vegas-nevada-10-16-2026/event/17006538C052CC95",
+   "age21": true,
+   "type": "concert",
+   "status": "cancelled",
+   "statusSince": "2026-10-14T19:43:01.895Z"
   }
  ]
 }
