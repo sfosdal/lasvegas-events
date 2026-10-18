@@ -1550,6 +1550,148 @@
    "type": "concert",
    "status": "cancelled",
    "statusSince": "2026-10-14T19:43:01.895Z"
+  },
+  {
+   "venue": "The Chelsea",
+   "title": "Premier Boxing Champions: Fundora Vs Hadribeaj",
+   "date": "2026-10-17",
+   "time": "15:30:00",
+   "url": "https://www.ticketmaster.com/premier-boxing-champions-fundora-vs-hadribeaj-las-vegas-nevada-10-17-2026/event/17006519DFC44E6B",
+   "type": "sports"
+  },
+  {
+   "venue": "T-Mobile Arena",
+   "title": "Vegas Golden Knights vs. Pittsburgh Penguins",
+   "date": "2026-10-17",
+   "time": "19:00:00",
+   "url": "https://www.t-mobilearena.com/events",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "SCRIPPS"
+    ]
+   }
+  },
+  {
+   "venue": "Pearl Concert Theater",
+   "title": "Rise Against",
+   "date": "2026-10-17",
+   "time": "19:00:00",
+   "url": "https://www.axs.com/events/1362205/rise-against-tickets?skin=palmscasinoresort",
+   "type": "concert"
+  },
+  {
+   "venue": "Westgate International Theater",
+   "title": "Barry Manilow",
+   "date": "2026-10-17",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-10-17-2026/event/170062F0FD54635E",
+   "type": "concert"
+  },
+  {
+   "venue": "Brooklyn Bowl",
+   "title": "Schoolboy Q - 10 Years of Blank Face LP",
+   "date": "2026-10-17",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/schoolboy-q-10-years-of-blank-las-vegas-nevada-10-17-2026/event/170064FCF3B8883D",
+   "type": "concert"
+  },
+  {
+   "venue": "Cashman Field",
+   "title": "Las Vegas Lights FC vs. Lexington SC",
+   "date": "2026-10-17",
+   "time": "19:30:00",
+   "url": "https://www.lasvegaslightsfc.com/schedule",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "ESPN+"
+    ]
+   }
+  },
+  {
+   "venue": "Orleans Arena",
+   "title": "Copa Las Vegas: USA vs Mexico",
+   "date": "2026-10-17",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/copa-las-vegas-usa-vs-mexico-las-vegas-nevada-10-17-2026/event/170065249E1CFC7F",
+   "type": "sports"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "MICO - Running From A Feeling Tour",
+   "date": "2026-10-17",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-las-vegas-nevada-10-17-2026/event/170064ADCFF4AC09",
+   "type": "concert"
+  },
+  {
+   "venue": "Golden Nugget Showroom",
+   "title": "Gordie Brown",
+   "date": "2026-10-17",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/gordie-brown-las-vegas-nevada-10-17-2026/event/170064F5C158C900",
+   "type": "arts"
+  },
+  {
+   "venue": "The Shag Room",
+   "title": "Nerd Halen",
+   "date": "2026-10-17",
+   "time": "20:00",
+   "url": "https://virginhotelslv.com/event/nerd-halen/2026-10-17/",
+   "type": "concert"
+  },
+  {
+   "venue": "Dolby Live",
+   "title": "New Kids On the Block: The Right Stuff Las Vegas Residency",
+   "date": "2026-10-17",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/new-kids-on-the-block-the-las-vegas-nevada-10-17-2026/event/2E006358A7F50D26",
+   "type": "concert"
+  },
+  {
+   "venue": "Fontainebleau",
+   "title": "Keith Urban: Live In Las Vegas",
+   "date": "2026-10-17",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/keith-urban-live-in-las-vegas-las-vegas-nevada-10-17-2026/event/1700647FDBE3BDE5",
+   "type": "concert"
+  },
+  {
+   "venue": "Voltaire",
+   "title": "Dita Von Teese",
+   "date": "2026-10-17",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/dita-von-teese-las-vegas-nevada-10-17-2026/event/17006513D3A44947",
+   "age21": true,
+   "type": "arts"
+  },
+  {
+   "venue": "Sphere",
+   "title": "Metallica: Life Burns Faster",
+   "date": "2026-10-17",
+   "time": "20:30:00",
+   "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-17-2026/event/17006455FF51D56C",
+   "type": "concert"
+  },
+  {
+   "venue": "The Venetian Theatre",
+   "title": "Earth, Wind & Fire",
+   "date": "2026-10-17",
+   "time": "20:30:00",
+   "url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-17-2026/event/17006465DF1E251F",
+   "type": "concert"
+  },
+  {
+   "venue": "Voltaire",
+   "title": "Damage Inc. Metallica Tribute Band After Party",
+   "date": "2026-10-17",
+   "time": "23:00:00",
+   "url": "https://www.ticketmaster.com/damage-inc-metallica-tribute-band-after-las-vegas-nevada-10-17-2026/event/17006538C054CC9E",
+   "age21": true,
+   "type": "concert",
+   "status": "cancelled",
+   "statusSince": "2026-10-14T19:43:01.895Z"
   }
  ]
 }
