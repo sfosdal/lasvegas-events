@@ -58,10 +58,11 @@
     color-scheme: dark;
     --sky: #141a20; --mist: #1d252e; --ink: #e8edf1; --ink-soft: #9aa7b2; --ink-bright: #ffffff;
     --line: #333f4a; --gold: #f08a33; --gold-soft: #3a2a1a;
-    --v-cornish: #3ecf97; --v-cpa: #4da3f0; --v-tmobile: #8ad8e0; --v-seactr: #6a72e6;
-    --v-lumen: #8b8fe8; --v-husky: #c4a0f0; --v-siff: #b596e0; --v-vera: #a26be6; --v-otb: #e07ae0; --v-mccaw: #d158a7;
-    --v-scc: #7fa7cc; --v-sct: #6cc9db; --v-mopop: #e88ad8; --v-pacsci: #62b8f7; --v-kexp: #b48cf5; --v-goat: #5fb3a1; --v-rep: #f0827a;
-    --v-paramount: #e39a6e; --v-showbox: #e8c45a; --v-sodo: #aab8d6; --v-croc: #7ed67f;
+    --v-sphere: #ea8686; --v-tmobilearena: #86eaa3; --v-allegiant: #c086ea; --v-grandgarden: #eadd86; --v-michelob: #86d9ea; --v-dolby: #ea86bc; /* the rooms, one hue each (city.js cssVar), spread round the wheel */
+    --v-colosseum: #9fea86; --v-phlive: #8a86ea; --v-resortsworld: #eaa786; --v-fontainebleau: #86eac4; --v-chelsea: #e186ea; --v-virgin: #d5ea86;
+    --v-encore: #86b7ea; --v-venetian: #ea869a; --v-pearl: #86ea8e; --v-voltaire: #ab86ea; --v-thomasmack: #eac886; --v-ballpark: #86eae6;
+    --v-leesforum: #ea86d0; --v-cashman: #b3ea86; --v-orleans: #8696ea; --v-speedway: #ea9286; --v-reynolds: #86eab0; --v-hob: #cd86ea;
+    --v-brooklynbowl: #e9ea86; --v-westgate: #86ead7; --v-palazzo: #ea86ad; --v-oxford: #9486ea; --v-shagroom: #86ea86; --v-southpoint: #86adea; --v-goldennugget: #ead686;
     --venue-text: 100%; --tint: 13%;
     --t-concert: #f0806a; --t-sports: #f2d21b; --t-arts: #d63a4f;
     --t-movie: #8b9db0; --t-community: #e660a8; --t-expo: #4fd1c5; --t-bar: #e3ad3c; --alert: #ff4b3e;
