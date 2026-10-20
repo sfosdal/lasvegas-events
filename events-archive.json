@@ -1748,6 +1748,14 @@
    "time": "20:30:00",
    "url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-18-2026/event/17006465DF232529",
    "type": "concert"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "Free Throw/Microwave",
+   "date": "2026-10-19",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/free-throwmicrowave-las-vegas-nevada-10-19-2026/event/170064CFA48887B8",
+   "type": "concert"
   }
  ]
 }
