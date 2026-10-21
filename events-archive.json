@@ -1756,6 +1756,36 @@
    "time": "18:00:00",
    "url": "https://www.ticketmaster.com/free-throwmicrowave-las-vegas-nevada-10-19-2026/event/170064CFA48887B8",
    "type": "concert"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "Boy Harsher",
+   "date": "2026-10-20",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/boy-harsher-las-vegas-nevada-10-20-2026/event/170064C39495A490",
+   "type": "concert"
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "Serpentine Fire: Music of Earth, Wind & Fire",
+   "date": "2026-10-20",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/serpentine-fire-music-of-earth-wind-las-vegas-nevada-10-20-2026/event/170064FAECC10AC4",
+   "type": "concert"
+  },
+  {
+   "venue": "T-Mobile Arena",
+   "title": "Vegas Golden Knights vs. Tampa Bay Lightning",
+   "date": "2026-10-20",
+   "time": "19:30:00",
+   "url": "https://www.t-mobilearena.com/events",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "ESPN",
+     "SN+"
+    ]
+   }
   }
  ]
 }
