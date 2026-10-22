@@ -69,7 +69,7 @@
     // injected (the Husky Stadium pattern in lqa)
     { slug: 'rebels', label: 'Rebels', name: 'UNLV Rebels', abbr: 'UNLV', re: /unlv(?!.*basketball)|rebels football/i, sport: 'football', venue: 'Allegiant Stadium', colors: ['#cf0a2c', '#666666'],
       espn: { sport: 'football', league: 'college-football', id: '2439' }, season: { kind: 'espn' }, form: { kind: 'espn' },
-      inject: { url: 'https://unlvrebels.com/sports/football/tickets' },
+      inject: { url: 'https://unlvrebels.com/sports/football/schedule' },
       logo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png', schedule: 'https://unlvrebels.com/sports/football/schedule',
       club: 'UNLV Rebels Football', opens: 'late August', wiki: { title: 'UNLV Rebels football', teamPage: true } },
     // UNLV Runnin' Rebels, men's basketball, Thomas & Mack Center — Ticketmaster lists the home games
@@ -225,9 +225,9 @@
       type: 'concert',
       cssVar: '--v-virgin',
       color: '#d5ea86',
-      url: 'https://virginhotelslv.com/entertainment/',
+      url: 'https://virginhotelslv.com/events/',
       icon: 'https://www.google.com/s2/favicons?domain=virginhotelslv.com&sz=128',
-      tm: { id: 'KovZ917AJEB', match: 'virgin', fallbackUrl: 'https://virginhotelslv.com/entertainment/', exclude: /hotel packages/i },
+      tm: { id: 'KovZ917AJEB', match: 'virgin', fallbackUrl: 'https://virginhotelslv.com/events/', exclude: /hotel packages/i },
       alias: /theater at virgin|the joint/i,
     },
     'Encore Theater': {
@@ -295,9 +295,9 @@
       type: 'concert',
       cssVar: '--v-oxford',
       color: '#9486ea',
-      url: 'https://virginhotelslv.com/entertainment/',
+      url: 'https://virginhotelslv.com/events/',
       icon: 'https://www.google.com/s2/favicons?domain=virginhotelslv.com&sz=128',
-      tm: { id: 'KovZ917AVCs', match: '24 oxford', fallbackUrl: 'https://virginhotelslv.com/entertainment/', exclude: /hotel packages/i },
+      tm: { id: 'KovZ917AVCs', match: '24 oxford', fallbackUrl: 'https://virginhotelslv.com/events/', exclude: /hotel packages/i },
       alias: /24 oxford/i,
     },
     'The Shag Room': { // Virgin Hotels' free lounge stage, read from the resort's own calendar (The Events Calendar; the feed covers every room, `rooms` keeps this one — the Theater and 24 Oxford come from Ticketmaster); the open-mic nights are dropped
@@ -305,7 +305,7 @@
       type: 'concert',
       cssVar: '--v-shagroom',
       color: '#86ea86',
-      url: 'https://virginhotelslv.com/entertainment/',
+      url: 'https://virginhotelslv.com/events/',
       icon: 'https://www.google.com/s2/favicons?domain=virginhotelslv.com&sz=128',
       feed: { kind: 'tribe', url: 'https://virginhotelslv.com/wp-json/tribe/events/v1/events', rooms: /shag room/i, drop: /open mic/i },
       alias: /shag room/i,
@@ -361,9 +361,9 @@
       type: 'sports',
       cssVar: '--v-orleans',
       color: '#8696ea',
-      url: 'https://www.orleansarena.com/events',
+      url: 'https://orleans.boydgaming.com/orleans-arena',
       icon: 'https://www.google.com/s2/favicons?domain=www.orleansarena.com&sz=128',
-      tm: { id: 'KovZpZA1e7IA', match: 'orleans arena', fallbackUrl: 'https://www.orleansarena.com/events', exclude: /parking|suite/i },
+      tm: { id: 'KovZpZA1e7IA', match: 'orleans arena', fallbackUrl: 'https://orleans.boydgaming.com/orleans-arena', exclude: /parking|suite/i },
       alias: /orleans arena/i,
     },
     'Las Vegas Motor Speedway': {
