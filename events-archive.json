@@ -2040,6 +2040,144 @@
    "url": "https://www.ticketmaster.com/daniel-sloss-bitter-brand-new-tour-las-vegas-nevada-10-23-2026/event/170064439E98C482",
    "age21": true,
    "type": "arts"
+  },
+  {
+   "venue": "Lee's Family Forum",
+   "title": "Henderson Silver Knights vs. Tucson Roadrunners",
+   "date": "2026-10-24",
+   "time": "18:00:00",
+   "url": "https://www.leesfamilyforum.com/events",
+   "type": "sports"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "Honey Revenge x Dead Poet Society",
+   "date": "2026-10-24",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/honey-revenge-x-dead-poet-society-las-vegas-nevada-10-24-2026/event/170064F502DF4476",
+   "type": "concert"
+  },
+  {
+   "venue": "Virgin Theater",
+   "title": "Tucker Wetmore (Ages 4 and Over)",
+   "date": "2026-10-24",
+   "time": "19:00:00",
+   "url": "https://virginhotelslv.com/venue/the-theater/",
+   "type": "concert"
+  },
+  {
+   "venue": "Westgate International Theater",
+   "title": "1970 LIVE! That's The Way It Was",
+   "date": "2026-10-24",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/1970-live-thats-the-way-it-las-vegas-nevada-10-24-2026/event/170062F720E169AB",
+   "type": "concert"
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "Human Nature: Back to the Sound of Motown",
+   "date": "2026-10-24",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/human-nature-back-to-the-sound-las-vegas-nevada-10-24-2026/event/170064FAF1251234",
+   "type": "concert"
+  },
+  {
+   "venue": "Reynolds Hall",
+   "title": "Phantom Of The Opera (Touring)",
+   "date": "2026-10-24",
+   "time": "19:30:00",
+   "url": "https://www.thesmithcenter.com/venue/reynolds-hall/",
+   "type": "arts"
+  },
+  {
+   "venue": "Golden Nugget Showroom",
+   "title": "Gordie Brown",
+   "date": "2026-10-24",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/gordie-brown-las-vegas-nevada-10-24-2026/event/170064F5C169C91E",
+   "type": "arts"
+  },
+  {
+   "venue": "The Shag Room",
+   "title": "Zach Ryan Band",
+   "date": "2026-10-24",
+   "time": "20:00",
+   "url": "https://virginhotelslv.com/event/zach-ryan-band-2/",
+   "type": "concert"
+  },
+  {
+   "venue": "Dolby Live",
+   "title": "Mary J. Blige: My Life, My Story - The Las Vegas Residency",
+   "date": "2026-10-24",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/mary-j-blige-my-life-my-las-vegas-nevada-10-24-2026/event/2E006495D31E22B7",
+   "type": "concert"
+  },
+  {
+   "venue": "The Colosseum",
+   "title": "Tim McGraw: Live in Las Vegas",
+   "date": "2026-10-24",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/tim-mcgraw-live-in-las-vegas-las-vegas-nevada-10-24-2026/event/390064D1D25031C3",
+   "type": "concert"
+  },
+  {
+   "venue": "Encore Theater",
+   "title": "Tom Jones: Come Gather Round Tour",
+   "date": "2026-10-24",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-24-2026/event/170064AFB61CAEA4",
+   "type": "concert"
+  },
+  {
+   "venue": "24 Oxford",
+   "title": "Samantha Fish - Paper Doll Live World Tour",
+   "date": "2026-10-24",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/samantha-fish-paper-doll-live-world-las-vegas-nevada-10-24-2026/event/170064CC1042E104",
+   "type": "concert"
+  },
+  {
+   "venue": "Sphere",
+   "title": "Metallica: Life Burns Faster",
+   "date": "2026-10-24",
+   "time": "20:30:00",
+   "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-24-2026/event/17006455FF52D575",
+   "type": "concert"
+  },
+  {
+   "venue": "The Venetian Theatre",
+   "title": "Earth, Wind & Fire",
+   "date": "2026-10-24",
+   "time": "20:30:00",
+   "url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-24-2026/event/17006465DF302558",
+   "type": "concert"
+  },
+  {
+   "venue": "Voltaire",
+   "title": "Dita Von Teese",
+   "date": "2026-10-24",
+   "time": "21:00:00",
+   "url": "https://www.ticketmaster.com/dita-von-teese-las-vegas-nevada-10-24-2026/event/17006513D3AC4970",
+   "age21": true,
+   "type": "arts"
+  },
+  {
+   "venue": "Brooklyn Bowl",
+   "title": "Club 90's Presents Thrillerween: Michael Jackson Night",
+   "date": "2026-10-24",
+   "time": "21:00:00",
+   "url": "https://www.ticketmaster.com/club-90s-presents-thrillerween-michael-jackson-las-vegas-nevada-10-24-2026/event/17006528BA1BBEB1",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "Palazzo Theatre",
+   "title": "Mario Adrion",
+   "date": "2026-10-24",
+   "time": "21:30:00",
+   "url": "https://www.ticketmaster.com/mario-adrion-las-vegas-nevada-10-24-2026/event/1700646506ACCB25",
+   "type": "arts"
   }
  ]
 }
