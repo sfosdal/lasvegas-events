@@ -111,6 +111,7 @@
   var VENUES = {
     // --- The Strip: Sphere, T-Mobile Arena, Allegiant Stadium, the Grand Garden, Mandalay Bay's arena, the resorts' showrooms ---
     'Sphere': {
+      geo: [36.12073, -115.16429],
       capacity: 18600,
       type: 'concert',
       cssVar: '--v-sphere',
@@ -121,6 +122,7 @@
       alias: /^sphere\b|t-mobile zone at sphere/i,
     },
     'T-Mobile Arena': {
+      geo: [36.10281, -115.17831],
       capacity: 20000,
       type: 'sports',
       cssVar: '--v-tmobilearena',
@@ -131,6 +133,7 @@
       alias: /t-?mobile arena/i,
     },
     'Allegiant Stadium': {
+      geo: [36.0909, -115.1833],
       capacity: 65000,
       type: 'sports',
       cssVar: '--v-allegiant',
@@ -141,6 +144,7 @@
       alias: /allegiant stadium/i,
     },
     'MGM Grand Garden Arena': {
+      geo: [36.10234, -115.1695],
       capacity: 16800,
       type: 'concert',
       cssVar: '--v-grandgarden',
@@ -151,6 +155,7 @@
       alias: /grand garden/i,
     },
     'Michelob ULTRA Arena': {
+      geo: [36.08754, -115.17474],
       capacity: 12000,
       type: 'sports',
       cssVar: '--v-michelob',
@@ -161,6 +166,7 @@
       alias: /michelob ultra arena|mandalay bay events center/i,
     },
     'Dolby Live': {
+      geo: [36.10395, -115.17481],
       capacity: 5200,
       type: 'concert',
       cssVar: '--v-dolby',
@@ -171,6 +177,7 @@
       alias: /dolby live|park theater/i,
     },
     'The Colosseum': {
+      geo: [36.11616, -115.17506],
       capacity: 4300,
       type: 'concert',
       cssVar: '--v-colosseum',
@@ -181,6 +188,7 @@
       alias: /colosseum/i,
     },
     'PH Live': {
+      geo: [36.10962, -115.17247],
       capacity: 7000,
       type: 'concert',
       cssVar: '--v-phlive',
@@ -191,6 +199,7 @@
       alias: /ph live|bakkt theater|zappos theater/i,
     },
     'Resorts World Theatre': {
+      geo: [36.1244, -115.1451],
       capacity: 5000,
       type: 'concert',
       cssVar: '--v-resortsworld',
@@ -201,6 +210,7 @@
       alias: /resorts world/i,
     },
     'Fontainebleau': {
+      geo: [36.13674, -115.16126],
       capacity: 3800,
       type: 'concert',
       cssVar: '--v-fontainebleau',
@@ -211,6 +221,7 @@
       alias: /fontainebleau|bleaulive/i,
     },
     'The Chelsea': {
+      geo: [36.10908, -115.17318],
       capacity: 3200,
       type: 'concert',
       cssVar: '--v-chelsea',
@@ -221,6 +232,7 @@
       alias: /the chelsea|cosmopolitan of las vegas/i,
     },
     'Virgin Theater': {
+      geo: [36.1104, -115.15453],
       capacity: 4500,
       type: 'concert',
       cssVar: '--v-virgin',
@@ -231,6 +243,7 @@
       alias: /theater at virgin|the joint/i,
     },
     'Encore Theater': {
+      geo: [36.1276, -115.16768],
       capacity: 1480,
       type: 'concert',
       cssVar: '--v-encore',
@@ -241,6 +254,7 @@
       alias: /encore theater/i,
     },
     'The Venetian Theatre': {
+      geo: [36.12139, -115.16924],
       capacity: 1800,
       type: 'concert',
       cssVar: '--v-venetian',
@@ -251,6 +265,7 @@
       alias: /venetian theatre/i,
     },
     'Pearl Concert Theater': {
+      geo: [36.11538, -115.19534],
       capacity: 2500,
       type: 'concert',
       cssVar: '--v-pearl',
@@ -261,6 +276,7 @@
       alias: /pearl concert theater/i,
     },
     'Voltaire': {
+      geo: [36.12172, -115.16933],
       capacity: 1000,
       type: 'concert',
       cssVar: '--v-voltaire',
@@ -271,6 +287,7 @@
       alias: /voltaire/i,
     },
     'Westgate International Theater': { // Elvis's old room: the Manilow residency and the oldies; the VIP passes and the theater tour are dropped
+      geo: [36.13605, -115.15152],
       capacity: 1600,
       type: 'concert',
       cssVar: '--v-westgate',
@@ -281,6 +298,7 @@
       alias: /international theater|westgate/i,
     },
     'Palazzo Theatre': { // the comedy one-nighters; Shin Lim's nightly run (179 dates) is dropped
+      geo: [36.12425, -115.16834],
       capacity: 1800,
       type: 'arts',
       cssVar: '--v-palazzo',
@@ -291,6 +309,7 @@
       alias: /palazzo/i,
     },
     '24 Oxford': { // Virgin Hotels' club room
+      geo: [36.1102, -115.15534],
       capacity: 1000,
       type: 'concert',
       cssVar: '--v-oxford',
@@ -301,6 +320,7 @@
       alias: /24 oxford/i,
     },
     'The Shag Room': { // Virgin Hotels' free lounge stage, read from the resort's own calendar (The Events Calendar; the feed covers every room, `rooms` keeps this one — the Theater and 24 Oxford come from Ticketmaster); the open-mic nights are dropped
+      geo: [36.1093, -115.153],
       capacity: 200,
       type: 'concert',
       cssVar: '--v-shagroom',
@@ -312,6 +332,7 @@
     },
     // --- Beyond the Strip (`area: 'town'`): the UNLV campus, Summerlin's ballpark, Henderson's arena, downtown, the Orleans, the Speedway, the Smith Center, the Mandalay Bay and Linq music rooms ---
     'Thomas & Mack Center': {
+      geo: [36.10515, -115.14359],
       area: 'town',
       capacity: 18000,
       type: 'sports',
@@ -323,6 +344,7 @@
       alias: /thomas (&|and) mack/i,
     },
     'Las Vegas Ballpark': {
+      geo: [36.1532, -115.33091],
       area: 'town',
       capacity: 10000,
       type: 'sports',
@@ -334,6 +356,7 @@
       alias: /las vegas ballpark/i,
     },
     "Lee's Family Forum": {
+      geo: [36.01909, -115.08128],
       area: 'town',
       capacity: 6000,
       type: 'sports',
@@ -345,6 +368,7 @@
       alias: /lee'?s family forum|dollar loan center/i,
     },
     'Cashman Field': {
+      geo: [36.17937, -115.13039],
       area: 'town',
       capacity: 9334,
       type: 'sports',
@@ -356,6 +380,7 @@
       alias: /cashman field/i,
     },
     'Orleans Arena': {
+      geo: [36.10224, -115.20097],
       area: 'town',
       capacity: 9500,
       type: 'sports',
@@ -367,6 +392,7 @@
       alias: /orleans arena/i,
     },
     'Las Vegas Motor Speedway': {
+      geo: [36.27126, -115.00188],
       area: 'town',
       capacity: 80000,
       type: 'sports',
@@ -378,6 +404,7 @@
       alias: /las vegas motor speedway/i,
     },
     'Reynolds Hall': {
+      geo: [36.1822, -115.1626],
       area: 'town',
       capacity: 2050,
       type: 'arts',
@@ -389,6 +416,7 @@
       alias: /reynolds hall|smith center/i,
     },
     'House of Blues': {
+      geo: [36.08754, -115.17474],
       area: 'town',
       capacity: 1800,
       type: 'concert',
@@ -400,6 +428,7 @@
       alias: /^house of blues( las vegas)?\s*$/i,
     },
     'Brooklyn Bowl': {
+      geo: [36.11778, -115.17258],
       area: 'town',
       capacity: 2000,
       type: 'concert',
@@ -411,6 +440,7 @@
       alias: /brooklyn bowl/i,
     },
     'South Point Showroom': { // the oldies and tribute acts south of the Strip; the Spazmatics' standing dates are dropped
+      geo: [36.01131, -115.17528],
       area: 'town',
       capacity: 400,
       type: 'concert',
@@ -422,6 +452,7 @@
       alias: /south point/i,
     },
     'Golden Nugget Showroom': { // downtown's showroom: the country and classic-rock one-nighters, Gordie Brown's run
+      geo: [36.17054, -115.1444],
       area: 'town',
       capacity: 600,
       type: 'concert',
@@ -485,6 +516,18 @@
     ics: { name: 'Las Vegas Events', short: 'Las Vegas Events', teams: 'Las Vegas home teams — every season', prodid: '-//here.events//lasvegas-events//EN', uidDomain: 'fosdal.net', // the UID domain the whole family issues (the shared ics test pins it)
       desc: 'Upcoming events around Las Vegas\\, NV — Sphere\\, T-Mobile Arena\\, Allegiant Stadium\\, the showrooms on the Strip and the rooms beyond it' },
     teams: TEAMS,
+    map: { // the Map view (local-map.js; the ground drawn once by scripts/build-local-map.mjs from OpenStreetMap, committed as site/local-map.json) — every city gets one, Steve, 2026-10-26
+      kind: 'urban',
+      bbox: [35.972, -115.38, 36.31, -114.953], // south, west, north, east — every room, with a margin
+      home: [36.075, -115.208, 36.149, -115.133], // the view at first: the city's own rooms; the fit button shows the whole frame
+      roads: ['motorway', 'trunk', 'primary'],
+      tolerance: 0.6,
+      labels: [
+        { name: 'Las Vegas', lat: 36.17, lon: -115.14, anchor: 'middle' },
+        { name: 'Las Vegas ', lat: 36.16743, lon: -115.14841, anchor: 'middle' },
+        { name: 'Henderson', lat: 36.03196, lon: -114.98227, anchor: 'middle' },
+      ],
+    },
     venues: VENUES,
     defaultOn: DEFAULT_ON,
     defaultOff: DEFAULT_OFF,
