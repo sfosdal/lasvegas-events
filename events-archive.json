@@ -2178,6 +2178,68 @@
    "time": "21:30:00",
    "url": "https://www.ticketmaster.com/mario-adrion-las-vegas-nevada-10-24-2026/event/1700646506ACCB25",
    "type": "arts"
+  },
+  {
+   "venue": "Allegiant Stadium",
+   "title": "Las Vegas Raiders vs. Los Angeles Rams",
+   "date": "2026-10-25",
+   "time": "13:25:00",
+   "url": "https://www.ticketmaster.com/las-vegas-raiders-vs-los-angeles-las-vegas-nevada-10-25-2026/event/1700646CC3A7C3B1",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "Fox"
+    ]
+   }
+  },
+  {
+   "venue": "Reynolds Hall",
+   "title": "Phantom Of The Opera (Touring)",
+   "date": "2026-10-25",
+   "time": "14:00:00",
+   "url": "https://www.thesmithcenter.com/venue/reynolds-hall/",
+   "type": "arts"
+  },
+  {
+   "venue": "Virgin Theater",
+   "title": "In This Moment w/ Hollywood Undead",
+   "date": "2026-10-25",
+   "time": "18:00:00",
+   "url": "https://virginhotelslv.com/venue/the-theater/",
+   "type": "concert"
+  },
+  {
+   "venue": "Pearl Concert Theater",
+   "title": "Jim Henson's Labyrinth",
+   "date": "2026-10-25",
+   "time": "18:30:00",
+   "url": "https://www.axs.com/events/1278370/jim-hensons-labyrinth-in-concert-40th-anniversary-tickets?skin=palmscasinoresort",
+   "type": "movie"
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "Human Nature: Back to the Sound of Motown",
+   "date": "2026-10-25",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/human-nature-back-to-the-sound-las-vegas-nevada-10-25-2026/event/170064FAF127123D",
+   "type": "concert"
+  },
+  {
+   "venue": "Reynolds Hall",
+   "title": "Phantom Of The Opera (Touring)",
+   "date": "2026-10-25",
+   "time": "19:30:00",
+   "url": "https://www.thesmithcenter.com/venue/reynolds-hall/",
+   "type": "arts"
+  },
+  {
+   "venue": "Voltaire",
+   "title": "Dita Von Teese",
+   "date": "2026-10-25",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/dita-von-teese-las-vegas-nevada-10-25-2026/event/17006513D3AE4977",
+   "age21": true,
+   "type": "arts"
   }
  ]
 }
