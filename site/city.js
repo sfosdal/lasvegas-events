@@ -498,10 +498,10 @@
   // The words the page uses for the place
   var WORDS = {
     teamCity: 'Las Vegas', // the board drops it from the clubs' names ("Las Vegas Raiders" → Raiders; the Golden Knights and the Silver Knights keep theirs)
-    presetDefault: 'Every room — Sphere, the arenas, the stadium, the showrooms on the Strip and the places beyond it — every team and type',
+    presetDefault: 'Every venue — Sphere, the arenas, the stadium, the showrooms on the Strip and the places beyond it — every team and type',
     presetNeighborhood: 'The Strip only',
     presetBig: 'Only the places that hold 2,000 or more — Sphere, the arenas, the stadium, the Speedway and the big showrooms',
-    phrases: { all: 'Showing everything.', none: 'Showing nothing yet — open Filter and pick some venues.', neighborhood: 'Showing the Strip only.', big: 'Showing the big rooms only — Sphere, the arenas, the stadium, the Speedway and the big showrooms.' },
+    phrases: { all: 'Showing everything.', none: 'Showing nothing yet — open Filter and pick some venues.', neighborhood: 'Showing the Strip only.', big: 'Showing the big venues only — Sphere, the arenas, the stadium, the Speedway and the big showrooms.' },
   };
 
   global.LQACity = {
