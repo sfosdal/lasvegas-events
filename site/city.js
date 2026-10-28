@@ -502,7 +502,7 @@
       icon: 'https://www.google.com/s2/favicons?domain=www.goldennugget.com&sz=128',
       tm: { id: 'KovZpZAJlvvA', match: 'golden nugget', fallbackUrl: 'https://www.goldennugget.com/las-vegas/entertainment/', exclude: /hotel packages/i },
       // the casino's own entertainment page (the showroom's cards link to /entertainment/entertainers/; "December 9 & 10" reads as the first night), secondary behind Ticketmaster (2026-10-27)
-      feed: { kind: 'cards', secondary: true, url: 'https://www.goldennugget.com/las-vegas/entertainment/',
+      feed: { kind: 'cards', chrome: true, secondary: true, url: 'https://www.goldennugget.com/las-vegas/entertainment/',
         item: /<div class="Card-wrapper">/, title: /<a href="(\/las-vegas\/entertainment\/entertainers\/[^"]+)"[^>]*>[\s\S]*?<h3 class="Card-title">([^<]+)</, when: /<div class="Card-text">([^<]*\d{4}[^<]*)</ },
       alias: /golden nugget/i,
     },
