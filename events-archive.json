@@ -2240,6 +2240,43 @@
    "url": "https://www.ticketmaster.com/dita-von-teese-las-vegas-nevada-10-25-2026/event/17006513D3AE4977",
    "age21": true,
    "type": "arts"
+  },
+  {
+   "venue": "T-Mobile Arena",
+   "title": "Vegas Golden Knights vs. Ottawa Senators",
+   "date": "2026-10-27",
+   "time": "19:00:00",
+   "url": "https://www.t-mobilearena.com/events",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "SCRIPPS"
+    ]
+   }
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "Righteous Brothers",
+   "date": "2026-10-27",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/righteous-brothers-las-vegas-nevada-10-27-2026/event/170064FAF9941F36",
+   "type": "concert"
+  },
+  {
+   "venue": "Reynolds Hall",
+   "title": "Phantom Of The Opera (Touring)",
+   "date": "2026-10-27",
+   "time": "19:30:00",
+   "url": "https://www.thesmithcenter.com/venue/reynolds-hall/",
+   "type": "arts"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "Epik High 3.0 North American Tour",
+   "date": "2026-10-27",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/epik-high-30-north-american-tour-las-vegas-nevada-10-27-2026/event/170064C46CFA8644",
+   "type": "concert"
   }
  ]
 }
