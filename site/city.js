@@ -130,6 +130,10 @@
       url: 'https://www.t-mobilearena.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.t-mobilearena.com&sz=128',
       tm: { id: 'KovZpZAIIIdA', match: 't-mobile arena', fallbackUrl: 'https://www.t-mobilearena.com/events', exclude: /parking|suite|hotel packages|\btours?\b/i },
+      // the arena's own list (Carbonhouse: one card a date with the clock; the Golden Knights' games clash with the Teams rows and go), secondary behind Ticketmaster (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://www.t-mobilearena.com/events/all', drop: /parking|suite|hotel packages|\btours?\b/i,
+        item: /<div class="eventItem /, title: /<h3 class="title[^"]*">\s*<a href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/,
+        when: /m-date__month">([^<]*)<\/span><span class="m-date__day">\s*(\d+)<\/span>(?:<span class="m-date__year">[^<\d]*(\d{4})<\/span>)?(?:[\s\S]*?<span class="start">\s*([^<]+)<)?/ },
       alias: /t-?mobile arena/i,
     },
     'Allegiant Stadium': {
@@ -141,6 +145,10 @@
       url: 'https://www.allegiantstadium.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.allegiantstadium.com&sz=128',
       tm: { id: 'KovZ917Ax7n', match: 'allegiant', fallbackUrl: 'https://www.allegiantstadium.com/events', exclude: /\btours?\b|hotel packages|parking|tailgate|suite/i },
+      // the stadium's own list (Carbonhouse: one card a date with the clock; the Raiders' games clash with the Teams rows and go), secondary behind Ticketmaster (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://www.allegiantstadium.com/events', drop: /\btours?\b|hotel packages|parking|tailgate|suite/i,
+        item: /<div class="eventItem /, title: /<h3 class="title[^"]*">\s*<a href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/,
+        when: /m-date__month">([^<]*)<\/span><span class="m-date__day">\s*(\d+)<\/span>(?:<span class="m-date__year">[^<\d]*(\d{4})<\/span>)?(?:[\s\S]*?<span class="start">\s*([^<]+)<)?/ },
       alias: /allegiant stadium/i,
     },
     'MGM Grand Garden Arena': {
@@ -207,6 +215,10 @@
       url: 'https://www.rwlasvegas.com/entertainment/',
       icon: 'https://www.google.com/s2/favicons?domain=www.rwlasvegas.com&sz=128',
       tm: { id: 'Z7r9jZa7bj', match: 'resorts world', fallbackUrl: 'https://www.rwlasvegas.com/entertainment/', exclude: /hotel packages/i },
+      // the resort's own listing (one card a date, no clock; Zouk's cards kept out by `venues`), secondary behind Ticketmaster (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://www.rwlasvegas.com/entertainment/', venues: /resorts world theatre/i, drop: /hotel packages/i,
+        item: /<li class='uv-center rwcard/, title: /<a href='([^']+)'[^>]*class='uv-boxitem'>[\s\S]*?class='uv-touppercase title'[^>]*>([^<]+)/,
+        when: /class='uvdate'><span>([^<]+)</, place: /class='uvloc'>([^<]+)</ },
       alias: /resorts world/i,
     },
     'Fontainebleau': {
@@ -218,6 +230,9 @@
       url: 'https://www.fontainebleaulasvegas.com/entertainment',
       icon: 'https://www.google.com/s2/favicons?domain=www.fontainebleaulasvegas.com&sz=128',
       tm: { id: 'KovZ917AcIV', match: 'fontainebleau', fallbackUrl: 'https://www.fontainebleaulasvegas.com/entertainment', exclude: /mind2mind|hotel packages|dinner|brunch/i },
+      // the resort's own show list (a card a show, its dates in the blurb — "OCTOBER 30 & 31" reads as the first night; no clock), secondary behind Ticketmaster (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://www.fontainebleaulasvegas.com/entertainment/', drop: /mind2mind|hotel packages|dinner|brunch/i,
+        item: /<div class="listCard">/, title: /<a href="([^"]+)" class="listCard--link">[\s\S]*?<div class="titleSmall">\s*([^<]+?)\s*</, when: /<p class="smallBody">([^<]*)</ },
       alias: /fontainebleau|bleaulive/i,
     },
     'The Chelsea': {
@@ -240,6 +255,7 @@
       url: 'https://virginhotelslv.com/events/',
       icon: 'https://www.google.com/s2/favicons?domain=virginhotelslv.com&sz=128',
       tm: { id: 'KovZ917AJEB', match: 'virgin', fallbackUrl: 'https://virginhotelslv.com/events/', exclude: /hotel packages/i },
+      feed: { kind: 'tribe', secondary: true, url: 'https://virginhotelslv.com/wp-json/tribe/events/v1/events', venues: /^the theater$/i, drop: /hotel packages/i }, // the resort's own calendar (The Events Calendar; every venue in one feed, `venues` keeps the Theater's rows), secondary behind Ticketmaster (2026-10-27)
       alias: /theater at virgin|the joint/i,
     },
     'Encore Theater': {
@@ -251,6 +267,10 @@
       url: 'https://www.wynnlasvegas.com/entertainment',
       icon: 'https://www.google.com/s2/favicons?domain=www.wynnlasvegas.com&sz=128',
       tm: { id: 'KovZpa30pe', match: 'encore theater', fallbackUrl: 'https://www.wynnlasvegas.com/entertainment', exclude: /hotel packages/i },
+      // Wynn's own listing: its JSON-LD ItemList, read as text (the jsonld kind does not descend into an ItemList); no clock — the cards kind reads no 24-hour ISO clock; the resort's other events kept out by `venues` (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://www.wynnlasvegas.com/entertainment', venues: /encore theater/i, drop: /hotel packages/i,
+        item: /\{"@type":"ListItem","position":\d+,"item":\{"@type":"Event"/, title: /(?=[\s\S]*?"url":"([^"]+)")"name":"([^"]+)"/,
+        when: /"startDate":"(\d{4}-\d{2}-\d{2})/, place: /"location":\{"@type":"Place","name":"([^"]+)"/ },
       alias: /encore theater/i,
     },
     'The Venetian Theatre': {
@@ -284,6 +304,9 @@
       url: 'https://www.voltairelv.com/',
       icon: 'https://www.google.com/s2/favicons?domain=www.voltairelv.com&sz=128',
       tm: { id: 'KovZ917AcQF', match: 'voltaire', fallbackUrl: 'https://www.voltairelv.com/', exclude: /hotel packages/i },
+      // the club's own events page (one card a night: "Fri, Nov 6", no clock; its JSON-LD sits in a single-quoted script tag the jsonld kind does not read), secondary behind Ticketmaster (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://voltairelv.com/events/', drop: /hotel packages/i,
+        item: /<div id="event-EVE\d+" class="eventitem/, title: /<a href='([^']+)'[\s\S]*?uv-event-name">([^<]+)</, when: /uv-date-mob uv-show-mob">([^<]+)</ },
       alias: /voltaire/i,
     },
     'Westgate International Theater': { // Elvis's old room: the Manilow residency and the oldies; the VIP passes and the theater tour are dropped
@@ -317,6 +340,7 @@
       url: 'https://virginhotelslv.com/events/',
       icon: 'https://www.google.com/s2/favicons?domain=virginhotelslv.com&sz=128',
       tm: { id: 'KovZ917AVCs', match: '24 oxford', fallbackUrl: 'https://virginhotelslv.com/events/', exclude: /hotel packages/i },
+      feed: { kind: 'tribe', secondary: true, url: 'https://virginhotelslv.com/wp-json/tribe/events/v1/events', venues: /24 oxford/i, drop: /hotel packages/i }, // the resort's own calendar, this venue's rows, secondary behind Ticketmaster (2026-10-27)
       alias: /24 oxford/i,
     },
     'The Shag Room': { // Virgin Hotels' free lounge stage, read from the resort's own calendar (The Events Calendar; the feed covers every room, `rooms` keeps this one — the Theater and 24 Oxford come from Ticketmaster); the open-mic nights are dropped
@@ -341,6 +365,9 @@
       url: 'https://www.thomasandmack.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.thomasandmack.com&sz=128',
       tm: { id: 'KovZpZA1e1JA', match: 'thomas', fallbackUrl: 'https://www.thomasandmack.com/events', exclude: /parking/i },
+      // UNLV Tickets' home page (thomasandmack.com has no events page): one card an event with a date, no clock; the season-span cards (a team's whole schedule) read no date and go, `venues` keeps the arena's own (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://www.unlvtickets.com/', venues: /thomas/i, drop: /parking/i,
+        item: /<h4 class="[^"]*event-name"/, title: /<a href="([^"]+)">([^<]+)<\/a>/, when: /fa-calendar-alt"><\/i>([A-Z][a-z]+ \d{1,2}, \d{4})<\/li>/, place: /fa-map-marker-alt"><\/i>([^<]+)</ },
       alias: /thomas (&|and) mack/i,
     },
     'Las Vegas Ballpark': {
@@ -365,6 +392,9 @@
       url: 'https://www.leesfamilyforum.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.leesfamilyforum.com&sz=128',
       tm: { id: 'KovZ917AIKQ', match: "lee's family forum", fallbackUrl: 'https://www.leesfamilyforum.com/events', exclude: /parking/i },
+      // the arena's own events page (Elementor loop: a date and clock, then the title link), secondary behind Ticketmaster (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://leesfamilyforum.com/events-filter/', drop: /parking/i,
+        item: /data-elementor-type="loop-item"/, title: /<a href="([^"]+)" rel="bookmark" class="event-title-link">([^<]+)</, when: /text-editor\.default">\s*<div class="elementor-widget-container">\s*([^<]*?)\s*</ },
       alias: /lee'?s family forum|dollar loan center/i,
     },
     'Cashman Field': {
@@ -401,6 +431,10 @@
       url: 'https://www.lvms.com/events/',
       icon: 'https://www.google.com/s2/favicons?domain=www.lvms.com&sz=128',
       tm: { id: 'KovZpaKuYe', match: 'motor speedway', fallbackUrl: 'https://www.lvms.com/events/', exclude: /parking|camping|shuttle|rv\b/i },
+      // the speedway's own event calendar (a JS object of escaped HTML, read as text: name, date or range, location); Glittering Lights' nightly rows, the schools and the test days go (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://www.lvms.com/events/', drop: /glittering lights|test-n-tune|school|track day|autocross|time trial|banquet|auction|gun show|\b5k\b|appreciation night|parking|camping|shuttle|\brv\b/i,
+        item: /<a (?=[^>]*data-id=\\")/, title: /^(?:href=\\"([^\\]*)\\")?[^>]*?data-name=\\"([^\\]*)\\"/,
+        when: /<div class=\\"date\\">(?:[A-Za-z]+, )?([^<]*?)\s*(?:<span class=\\"end\\">(?:[A-Za-z]+, )?([^<]*)<\/span>)?<\/div>/, place: /<div class=\\"location\\">([^<]*)</ },
       alias: /las vegas motor speedway/i,
     },
     'Reynolds Hall': {
@@ -425,6 +459,7 @@
       url: 'https://www.houseofblues.com/lasvegas',
       icon: 'https://www.google.com/s2/favicons?domain=www.houseofblues.com&sz=128',
       tm: { id: 'KovZpZA7klAA', match: 'house of blues las vegas', fallbackUrl: 'https://www.houseofblues.com/lasvegas' },
+      feed: { kind: 'jsonld', secondary: true, url: 'https://lasvegas.houseofblues.com/shows', at: /house of blues/i }, // the club's own show list (Live Nation's page: schema.org MusicEvents with clocks and Ticketmaster links), secondary behind Ticketmaster (2026-10-27)
       alias: /^house of blues( las vegas)?\s*$/i,
     },
     'Brooklyn Bowl': {
@@ -437,6 +472,7 @@
       url: 'https://www.brooklynbowl.com/las-vegas/',
       icon: 'https://www.google.com/s2/favicons?domain=www.brooklynbowl.com&sz=128',
       tm: { id: 'KovZpZAIeldA', match: 'brooklyn bowl', fallbackUrl: 'https://www.brooklynbowl.com/las-vegas/' },
+      feed: { kind: 'jsonld', secondary: true, url: 'https://lasvegas.brooklynbowl.com/shows', at: /brooklyn bowl/i }, // the club's own show list (Live Nation's page: schema.org MusicEvents), secondary behind Ticketmaster (2026-10-27)
       alias: /brooklyn bowl/i,
     },
     'South Point Showroom': { // the oldies and tribute acts south of the Strip; the Spazmatics' standing dates are dropped
@@ -449,6 +485,10 @@
       url: 'https://southpointcasino.com/entertainment/showroom/',
       icon: 'https://www.google.com/s2/favicons?domain=southpointcasino.com&sz=128',
       tm: { id: 'KovZpZAEFI6A', match: 'south point', fallbackUrl: 'https://southpointcasino.com/entertainment/showroom/', exclude: /spazmatics|hotel packages/i },
+      // the casino's own showroom list (a card a run: "October 27th - 29th", one row a night; the clock is printed as "7:00" with no meridiem, so every row takes the showroom's 7 pm; the free NFR-week shows have no ticket link and go), secondary behind Ticketmaster (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://southpointcasino.com/entertainment/showroom/', time: '19:00',
+        item: /<div class="eventlisting">/, title: /(?=[\s\S]*?<a href="([^"]+)"\s+class="btn btn-warning")<h3 class="m_title">([\s\S]*?)<\/h3>/,
+        when: /icon-calendar"><\/i>\s*([A-Za-z]+ \d{1,2})(?:st|nd|rd|th)?(\s*-\s*)?(?:([A-Za-z]+ )?(\d{1,2})(?:st|nd|rd|th))?/ },
       alias: /south point/i,
     },
     'Golden Nugget Showroom': { // downtown's showroom: the country and classic-rock one-nighters, Gordie Brown's run
@@ -461,6 +501,9 @@
       url: 'https://www.goldennugget.com/las-vegas/entertainment/',
       icon: 'https://www.google.com/s2/favicons?domain=www.goldennugget.com&sz=128',
       tm: { id: 'KovZpZAJlvvA', match: 'golden nugget', fallbackUrl: 'https://www.goldennugget.com/las-vegas/entertainment/', exclude: /hotel packages/i },
+      // the casino's own entertainment page (the showroom's cards link to /entertainment/entertainers/; "December 9 & 10" reads as the first night), secondary behind Ticketmaster (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://www.goldennugget.com/las-vegas/entertainment/',
+        item: /<div class="Card-wrapper">/, title: /<a href="(\/las-vegas\/entertainment\/entertainers\/[^"]+)"[^>]*>[\s\S]*?<h3 class="Card-title">([^<]+)</, when: /<div class="Card-text">([^<]*\d{4}[^<]*)</ },
       alias: /golden nugget/i,
     },
   };
