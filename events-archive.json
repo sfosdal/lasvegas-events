@@ -1254,6 +1254,22 @@
    }
   },
   {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "Kyle Busch Classic",
+   "date": "2026-10-02",
+   "time": "",
+   "url": "https://www.lvms.com/events/",
+   "type": "sports"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "Focused Health 302",
+   "date": "2026-10-03",
+   "time": "",
+   "url": "https://www.lvms.com/events/",
+   "type": "sports"
+  },
+  {
    "venue": "Allegiant Stadium",
    "title": "UNLV Rebels vs California Golden Bears",
    "date": "2026-10-03",
@@ -1275,6 +1291,38 @@
    "type": "sports"
   },
   {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "South Point 400",
+   "date": "2026-10-04",
+   "time": "",
+   "url": "https://www.lvms.com/events/",
+   "type": "sports"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "NHRA Division 7 Summit E.T. Bracket Finals",
+   "date": "2026-10-08",
+   "time": "",
+   "url": "https://www.lvms.com/events/",
+   "type": "sports"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "NHRA Division 7 Summit E.T. Bracket Finals",
+   "date": "2026-10-09",
+   "time": "",
+   "url": "https://www.lvms.com/events/",
+   "type": "sports"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "NHRA Division 7 Summit E.T. Bracket Finals",
+   "date": "2026-10-10",
+   "time": "",
+   "url": "https://www.lvms.com/events/",
+   "type": "sports"
+  },
+  {
    "venue": "Allegiant Stadium",
    "title": "UNLV Rebels vs North Dakota State Bison",
    "date": "2026-10-10",
@@ -1286,6 +1334,22 @@
      "CW"
     ]
    }
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "NHRA Division 7 Summit E.T. Bracket Finals",
+   "date": "2026-10-11",
+   "time": "",
+   "url": "https://www.lvms.com/events/",
+   "type": "sports"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "American Cancer Society – Making Strides Against Breast Cancer",
+   "date": "2026-10-11",
+   "time": "",
+   "url": "https://www.lvms.com/events/",
+   "type": "sports"
   },
   {
    "venue": "Encore Theater",
@@ -1552,6 +1616,22 @@
    "statusSince": "2026-10-14T19:43:01.895Z"
   },
   {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "ModdedKulture X Hot Pit Auto Fest",
+   "date": "2026-10-17",
+   "time": "",
+   "url": "https://www.lvms.com/events/",
+   "type": "sports"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "Apex Assassins Sin City Battle of Champions",
+   "date": "2026-10-17",
+   "time": "",
+   "url": "https://www.lvms.com/events/",
+   "type": "sports"
+  },
+  {
    "venue": "The Chelsea",
    "title": "Premier Boxing Champions: Fundora Vs Hadribeaj",
    "date": "2026-10-17",
@@ -1692,6 +1772,14 @@
    "type": "concert",
    "status": "cancelled",
    "statusSince": "2026-10-14T19:43:01.895Z"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "Apex Assassins Sin City Battle of Champions",
+   "date": "2026-10-18",
+   "time": "",
+   "url": "https://www.lvms.com/events/",
+   "type": "sports"
   },
   {
    "venue": "Allegiant Stadium",
@@ -2242,6 +2330,14 @@
    "type": "arts"
   },
   {
+   "venue": "South Point Showroom",
+   "title": "The Righteous Brothers Bill Medley and Bucky Heard Bringing Back That Lovin’ Feelin Farewell Performances at South Point",
+   "date": "2026-10-27",
+   "time": "19:00",
+   "url": "https://am.ticketmaster.com/southpoint/buy?id=MzQx",
+   "type": "concert"
+  },
+  {
    "venue": "T-Mobile Arena",
    "title": "Vegas Golden Knights vs. Ottawa Senators",
    "date": "2026-10-27",
@@ -2276,6 +2372,70 @@
    "date": "2026-10-27",
    "time": "19:30:00",
    "url": "https://www.ticketmaster.com/epik-high-30-north-american-tour-las-vegas-nevada-10-27-2026/event/170064C46CFA8644",
+   "type": "concert"
+  },
+  {
+   "venue": "Lee's Family Forum",
+   "title": "Henderson Silver Knights vs. Ontario Reign",
+   "date": "2026-10-28",
+   "time": "19:00:00",
+   "url": "https://www.leesfamilyforum.com/events",
+   "type": "sports"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "Jose Madero - USA Tour 2026",
+   "date": "2026-10-28",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/jose-madero-usa-tour-2026-las-vegas-nevada-10-28-2026/event/170064D18BDD72B4",
+   "type": "concert"
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "Righteous Brothers",
+   "date": "2026-10-28",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/righteous-brothers-las-vegas-nevada-10-28-2026/event/170064FAF9961F3A",
+   "type": "concert"
+  },
+  {
+   "venue": "Reynolds Hall",
+   "title": "Phantom Of The Opera (Touring)",
+   "date": "2026-10-28",
+   "time": "19:30:00",
+   "url": "https://www.thesmithcenter.com/venue/reynolds-hall/",
+   "type": "arts"
+  },
+  {
+   "venue": "Brooklyn Bowl",
+   "title": "Chief Keef",
+   "date": "2026-10-28",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/chief-keef-las-vegas-nevada-10-28-2026/event/170065421E5B34A7",
+   "type": "concert"
+  },
+  {
+   "venue": "Dolby Live",
+   "title": "Mary J. Blige: My Life, My Story - The Las Vegas Residency",
+   "date": "2026-10-28",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/mary-j-blige-my-life-my-las-vegas-nevada-10-28-2026/event/2E006495D32422CB",
+   "type": "concert"
+  },
+  {
+   "venue": "Encore Theater",
+   "title": "Bryan Adams - Bare Bones Acoustic Solo Show",
+   "date": "2026-10-28",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-28-2026/event/170064FDDE214442",
+   "type": "concert"
+  },
+  {
+   "venue": "The Venetian Theatre",
+   "title": "Earth, Wind & Fire",
+   "date": "2026-10-28",
+   "time": "20:30:00",
+   "url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-28-2026/event/17006465DF352563",
    "type": "concert"
   }
  ]
