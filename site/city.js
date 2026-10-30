@@ -231,7 +231,7 @@
       icon: 'https://www.google.com/s2/favicons?domain=www.fontainebleaulasvegas.com&sz=128',
       tm: { id: 'KovZ917AcIV', match: 'fontainebleau', fallbackUrl: 'https://www.fontainebleaulasvegas.com/entertainment', exclude: /mind2mind|hotel packages|dinner|brunch/i },
       // the resort's own show list (a card a show, its dates in the blurb — "OCTOBER 30 & 31" reads as the first night; no clock), secondary behind Ticketmaster (2026-10-27)
-      feed: { kind: 'cards', secondary: true, url: 'https://www.fontainebleaulasvegas.com/entertainment/', drop: /mind2mind|hotel packages|dinner|brunch/i,
+      feed: { kind: 'cards', chrome: true, secondary: true, url: 'https://www.fontainebleaulasvegas.com/entertainment/', drop: /mind2mind|hotel packages|dinner|brunch/i,
         item: /<div class="listCard">/, title: /<a href="([^"]+)" class="listCard--link">[\s\S]*?<div class="titleSmall">\s*([^<]+?)\s*</, when: /<p class="smallBody">([^<]*)</ },
       alias: /fontainebleau|bleaulive/i,
     },
