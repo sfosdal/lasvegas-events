@@ -2445,6 +2445,86 @@
    "time": "20:30:00",
    "url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-28-2026/event/17006465DF352563",
    "type": "concert"
+  },
+  {
+   "venue": "Thomas & Mack Center",
+   "title": "UNLV Rebels Mens Basketball vs. Missouri Tigers Mens Basketball",
+   "date": "2026-10-29",
+   "time": "19:00:00",
+   "url": "",
+   "type": "sports"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "Wage War - Emergency Broadcast Tour",
+   "date": "2026-10-29",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/wage-war-emergency-broadcast-tour-las-vegas-nevada-10-29-2026/event/170064B4DC9C30F4",
+   "type": "concert"
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "Righteous Brothers",
+   "date": "2026-10-29",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/righteous-brothers-las-vegas-nevada-10-29-2026/event/170064FAF9971F43",
+   "type": "concert"
+  },
+  {
+   "venue": "Reynolds Hall",
+   "title": "Phantom Of The Opera (Touring)",
+   "date": "2026-10-29",
+   "time": "19:30:00",
+   "url": "https://www.thesmithcenter.com/venue/reynolds-hall/",
+   "type": "arts"
+  },
+  {
+   "venue": "Brooklyn Bowl",
+   "title": "Chief Keef",
+   "date": "2026-10-29",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/chief-keef-las-vegas-nevada-10-29-2026/event/170064D1C14FCC8A",
+   "type": "concert"
+  },
+  {
+   "venue": "Golden Nugget Showroom",
+   "title": "Gordie Brown",
+   "date": "2026-10-29",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/gordie-brown-las-vegas-nevada-10-29-2026/event/170064F5C173C928",
+   "type": "arts"
+  },
+  {
+   "venue": "The Shag Room",
+   "title": "Greyson Bos",
+   "date": "2026-10-29",
+   "time": "20:00",
+   "url": "https://virginhotelslv.com/event/greyson-bos-10/2026-10-29/",
+   "type": "concert"
+  },
+  {
+   "venue": "PH Live",
+   "title": "Yandel - SINFÓNICO",
+   "date": "2026-10-29",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/yandel-sinfonico-las-vegas-nevada-10-29-2026/event/390064A1E932B46D",
+   "type": "concert"
+  },
+  {
+   "venue": "Encore Theater",
+   "title": "Bryan Adams - Bare Bones Acoustic Solo Show",
+   "date": "2026-10-29",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-29-2026/event/170064FDDE254490",
+   "type": "concert"
+  },
+  {
+   "venue": "Sphere",
+   "title": "Metallica: Life Burns Faster",
+   "date": "2026-10-29",
+   "time": "20:30:00",
+   "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-29-2026/event/170064550781E861",
+   "type": "concert"
   }
  ]
 }
