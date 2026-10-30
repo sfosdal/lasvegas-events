@@ -131,7 +131,7 @@
       icon: 'https://www.google.com/s2/favicons?domain=www.t-mobilearena.com&sz=128',
       tm: { id: 'KovZpZAIIIdA', match: 't-mobile arena', fallbackUrl: 'https://www.t-mobilearena.com/events', exclude: /parking|suite|hotel packages|\btours?\b/i },
       // the arena's own list (Carbonhouse: one card a date with the clock; the Golden Knights' games clash with the Teams rows and go), secondary behind Ticketmaster (2026-10-27)
-      feed: { kind: 'cards', secondary: true, url: 'https://www.t-mobilearena.com/events/all', drop: /parking|suite|hotel packages|\btours?\b/i,
+      feed: { kind: 'cards', secondary: true, url: 'https://www.t-mobilearena.com/events/all', chrome: true, drop: /parking|suite|hotel packages|\btours?\b/i,
         item: /<div class="eventItem /, title: /<h3 class="title[^"]*">\s*<a href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/,
         when: /m-date__month">([^<]*)<\/span><span class="m-date__day">\s*(\d+)<\/span>(?:<span class="m-date__year">[^<\d]*(\d{4})<\/span>)?(?:[\s\S]*?<span class="start">\s*([^<]+)<)?/ },
       alias: /t-?mobile arena/i,
