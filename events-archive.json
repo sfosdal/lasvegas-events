@@ -2535,6 +2535,22 @@
    "type": "sports"
   },
   {
+   "venue": "Fontainebleau",
+   "title": "Ricky Martin",
+   "date": "2026-10-30",
+   "time": "",
+   "url": "https://www.fontainebleaulasvegas.com/entertainment/ricky-martin/",
+   "type": "concert"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "Mopar NHRA Las Vegas Nationals",
+   "date": "2026-10-30",
+   "time": "",
+   "url": "https://www.lvms.com/events/mopar-nhra-las-vegas-nationals/",
+   "type": "sports"
+  },
+  {
    "venue": "Las Vegas Motor Speedway",
    "title": "NHRA Las Vegas Nationals",
    "date": "2026-10-30",
@@ -2578,6 +2594,14 @@
    "date": "2026-10-30",
    "time": "16:00:00",
    "url": "https://www.ticketmaster.com/strong-music-festival-2026-las-vegas-nevada-10-30-2026/event/170064FF70A65A93",
+   "type": "concert"
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "The Lettermen",
+   "date": "2026-10-30",
+   "time": "19:00",
+   "url": "https://am.ticketmaster.com/southpoint/buy?id=MTU5",
    "type": "concert"
   },
   {
