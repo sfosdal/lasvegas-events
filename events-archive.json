@@ -2525,6 +2525,191 @@
    "time": "20:30:00",
    "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-29-2026/event/170064550781E861",
    "type": "concert"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "INEX Road Course World Finals",
+   "date": "2026-10-30",
+   "time": "",
+   "url": "https://www.inexseries.com/events/road-course-world-finals/",
+   "type": "sports"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "NHRA Las Vegas Nationals",
+   "date": "2026-10-30",
+   "time": "07:30:00",
+   "url": "https://www.ticketmaster.com/nhra-las-vegas-nationals-las-vegas-nevada-10-30-2026/event/17006462A16EF39B",
+   "type": "sports"
+  },
+  {
+   "venue": "The Shag Room",
+   "title": "The Sonz",
+   "date": "2026-10-30",
+   "time": "08:00",
+   "url": "https://virginhotelslv.com/event/the-sonz/2026-10-30/",
+   "type": "concert"
+  },
+  {
+   "venue": "Reynolds Hall",
+   "title": "Phantom Of The Opera (Touring)",
+   "date": "2026-10-30",
+   "time": "14:00:00",
+   "url": "https://www.thesmithcenter.com/venue/reynolds-hall/",
+   "type": "arts"
+  },
+  {
+   "venue": "T-Mobile Arena",
+   "title": "Vegas Golden Knights vs. New Jersey Devils",
+   "date": "2026-10-30",
+   "time": "15:00:00",
+   "url": "https://www.t-mobilearena.com/events",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "SN+",
+     "SCRIPPS"
+    ]
+   }
+  },
+  {
+   "venue": "Thomas & Mack Center",
+   "title": "Strong Music Festival 2026",
+   "date": "2026-10-30",
+   "time": "16:00:00",
+   "url": "https://www.ticketmaster.com/strong-music-festival-2026-las-vegas-nevada-10-30-2026/event/170064FF70A65A93",
+   "type": "concert"
+  },
+  {
+   "venue": "Brooklyn Bowl",
+   "title": "10 Years of 6LACK Tour",
+   "date": "2026-10-30",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/10-years-of-6lack-tour-las-vegas-nevada-10-30-2026/event/170064B6920FFD1C",
+   "type": "concert",
+   "status": "cancelled",
+   "statusSince": "2026-10-12T03:18:34.623Z"
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "The Lettermen",
+   "date": "2026-10-30",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/the-lettermen-las-vegas-nevada-10-30-2026/event/170064FA03072F1A",
+   "type": "concert"
+  },
+  {
+   "venue": "Reynolds Hall",
+   "title": "Phantom Of The Opera (Touring)",
+   "date": "2026-10-30",
+   "time": "19:30:00",
+   "url": "https://www.thesmithcenter.com/venue/reynolds-hall/",
+   "type": "arts"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "W.A.S.P. -1984 To Headless",
+   "date": "2026-10-30",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/wasp-1984-to-headless-las-vegas-nevada-10-30-2026/event/1700643CE489CA77",
+   "type": "concert"
+  },
+  {
+   "venue": "24 Oxford",
+   "title": "18th Annual Thriller Halloween Party",
+   "date": "2026-10-30",
+   "time": "20:00",
+   "url": "https://virginhotelslv.com/event/18th-annual-thriller-halloween-party/",
+   "type": "concert"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "Phil Stendek",
+   "date": "2026-10-30",
+   "time": "20:00",
+   "url": "",
+   "type": "concert"
+  },
+  {
+   "venue": "MGM Grand Garden Arena",
+   "title": "The Smashing Pumpkins: The Rats In A Cage Tour",
+   "date": "2026-10-30",
+   "time": "20:00:00",
+   "url": "http://www.axs.com/events/1449710/the-smashing-pumpkins-tickets?skin=grandgarden",
+   "type": "concert"
+  },
+  {
+   "venue": "Michelob ULTRA Arena",
+   "title": "Don Omar",
+   "date": "2026-10-30",
+   "time": "20:00:00",
+   "url": "https://www.mandalaybay.com",
+   "type": "concert"
+  },
+  {
+   "venue": "Dolby Live",
+   "title": "Mary J. Blige: My Life, My Story - The Las Vegas Residency",
+   "date": "2026-10-30",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/mary-j-blige-my-life-my-las-vegas-nevada-10-30-2026/event/2E006495D32922D4",
+   "type": "concert"
+  },
+  {
+   "venue": "Fontainebleau",
+   "title": "Ricky Martin",
+   "date": "2026-10-30",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-30-2026/event/170064DEAE2DB2EB",
+   "type": "concert"
+  },
+  {
+   "venue": "Encore Theater",
+   "title": "Bryan Adams - Bare Bones Acoustic Solo Show",
+   "date": "2026-10-30",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-30-2026/event/170064FDDE2844A1",
+   "type": "concert"
+  },
+  {
+   "venue": "Pearl Concert Theater",
+   "title": "Richard Marx",
+   "date": "2026-10-30",
+   "time": "20:00:00",
+   "url": "https://www.axs.com/events/1542474/richard-marx-tickets?=skinpalmscasinoresort",
+   "type": "concert"
+  },
+  {
+   "venue": "Palazzo Theatre",
+   "title": "Lewis Black Live",
+   "date": "2026-10-30",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/lewis-black-live-las-vegas-nevada-10-30-2026/event/17006481B94EB3D9",
+   "type": "arts"
+  },
+  {
+   "venue": "Golden Nugget Showroom",
+   "title": "Lita Ford",
+   "date": "2026-10-30",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/lita-ford-las-vegas-nevada-10-30-2026/event/170064FC95F698B4",
+   "type": "concert"
+  },
+  {
+   "venue": "The Venetian Theatre",
+   "title": "Earth, Wind & Fire",
+   "date": "2026-10-30",
+   "time": "20:30:00",
+   "url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-30-2026/event/17006465DF392578",
+   "type": "concert"
+  },
+  {
+   "venue": "Brooklyn Bowl",
+   "title": "Club 90's Presents 2000's Halloween",
+   "date": "2026-10-30",
+   "time": "21:00:00",
+   "url": "https://www.ticketmaster.com/club-90s-presents-2000s-halloween-las-vegas-nevada-10-30-2026/event/17006528BACDBFDF",
+   "age21": true,
+   "type": "concert"
   }
  ]
 }
