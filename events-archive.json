@@ -2734,6 +2734,170 @@
    "url": "https://www.ticketmaster.com/club-90s-presents-2000s-halloween-las-vegas-nevada-10-30-2026/event/17006528BACDBFDF",
    "age21": true,
    "type": "concert"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "INEX Road Course World Finals",
+   "date": "2026-10-31",
+   "time": "",
+   "url": "https://www.inexseries.com/events/road-course-world-finals/",
+   "type": "sports"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "NHRA Las Vegas Nationals",
+   "date": "2026-10-31",
+   "time": "07:30:00",
+   "url": "https://www.ticketmaster.com/nhra-las-vegas-nationals-las-vegas-nevada-10-31-2026/event/17006462A190F42F",
+   "type": "sports"
+  },
+  {
+   "venue": "Brooklyn Bowl",
+   "title": "Lenny Pearce - Toddler Rave World Tour",
+   "date": "2026-10-31",
+   "time": "11:30:00",
+   "url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-las-vegas-nevada-10-31-2026/event/170064C41D4517FB",
+   "type": "concert"
+  },
+  {
+   "venue": "Reynolds Hall",
+   "title": "Phantom Of The Opera (Touring)",
+   "date": "2026-10-31",
+   "time": "14:00:00",
+   "url": "https://www.thesmithcenter.com/venue/reynolds-hall/",
+   "type": "arts"
+  },
+  {
+   "venue": "Westgate International Theater",
+   "title": "Three Dog Night",
+   "date": "2026-10-31",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/three-dog-night-las-vegas-nevada-10-31-2026/event/17006464FC48ABE2",
+   "type": "concert"
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "The Lettermen",
+   "date": "2026-10-31",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/the-lettermen-las-vegas-nevada-10-31-2026/event/170064FA03092F1D",
+   "type": "concert"
+  },
+  {
+   "venue": "T-Mobile Arena",
+   "title": "Doja Cat",
+   "date": "2026-10-31",
+   "time": "19:30:00",
+   "url": "http://www.t-mobilearena.com",
+   "type": "concert"
+  },
+  {
+   "venue": "Allegiant Stadium",
+   "title": "UNLV Rebels Football vs. Northern Illinois Huskies Football",
+   "date": "2026-10-31",
+   "time": "19:30:00",
+   "url": "https://www.allegiantstadium.com/events",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "CBSSN"
+    ]
+   }
+  },
+  {
+   "venue": "The Colosseum",
+   "title": "Hello America",
+   "date": "2026-10-31",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/hello-america-las-vegas-nevada-10-31-2026/event/390064FBF72665E0",
+   "type": "concert"
+  },
+  {
+   "venue": "Reynolds Hall",
+   "title": "Phantom Of The Opera (Touring)",
+   "date": "2026-10-31",
+   "time": "19:30:00",
+   "url": "https://www.thesmithcenter.com/venue/reynolds-hall/",
+   "type": "arts"
+  },
+  {
+   "venue": "Golden Nugget Showroom",
+   "title": "Gordie Brown",
+   "date": "2026-10-31",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/gordie-brown-las-vegas-nevada-10-31-2026/event/170064F5C179C930",
+   "type": "arts"
+  },
+  {
+   "venue": "The Shag Room",
+   "title": "Pop 40",
+   "date": "2026-10-31",
+   "time": "20:00",
+   "url": "https://virginhotelslv.com/event/pop-40-18/2026-10-31/",
+   "type": "concert"
+  },
+  {
+   "venue": "Dolby Live",
+   "title": "Mary J. Blige: My Life, My Story - The Las Vegas Residency",
+   "date": "2026-10-31",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/mary-j-blige-my-life-my-las-vegas-nevada-10-31-2026/event/2E006495D32E22E8",
+   "type": "concert"
+  },
+  {
+   "venue": "Fontainebleau",
+   "title": "Ricky Martin",
+   "date": "2026-10-31",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-31-2026/event/170064DEAE35B2F0",
+   "type": "concert"
+  },
+  {
+   "venue": "Encore Theater",
+   "title": "Bryan Adams - Bare Bones Acoustic Solo Show",
+   "date": "2026-10-31",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-31-2026/event/170064FDDE2B44B7",
+   "type": "concert"
+  },
+  {
+   "venue": "Pearl Concert Theater",
+   "title": "Jodeci",
+   "date": "2026-10-31",
+   "time": "20:00:00",
+   "url": "https://www.axs.com/events/1541178/jodeci-35th-anniversary-tour-of-forever-my-lady-tickets?=skinpalmscasinoresort",
+   "type": "concert"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "R&B Only Live - Las Vegas, NV",
+   "date": "2026-10-31",
+   "time": "20:00:00",
+   "url": "https://www.universe.com/events/r-b-only-live-las-vegas-nv-tickets-ST9XN7?ref=ticketmaster",
+   "type": "concert"
+  },
+  {
+   "venue": "Sphere",
+   "title": "Metallica: Life Burns Faster",
+   "date": "2026-10-31",
+   "time": "20:30:00",
+   "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-31-2026/event/170064550781E865",
+   "type": "concert"
+  },
+  {
+   "venue": "The Venetian Theatre",
+   "title": "Earth, Wind & Fire",
+   "date": "2026-10-31",
+   "time": "20:30:00",
+   "url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-31-2026/event/17006465DF3D2591",
+   "type": "concert"
+  },
+  {
+   "venue": "Virgin Theater",
+   "title": "Sin City Halloween Ball 2026 (21+ Event)",
+   "date": "2026-10-31",
+   "time": "21:00:00",
+   "url": "https://virginhotelslv.com/venue/the-theater/"
   }
  ]
 }
