@@ -2745,6 +2745,14 @@
   },
   {
    "venue": "Las Vegas Motor Speedway",
+   "title": "Mopar NHRA Las Vegas Nationals",
+   "date": "2026-10-31",
+   "time": "",
+   "url": "https://www.lvms.com/events/mopar-nhra-las-vegas-nationals/",
+   "type": "sports"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
    "title": "NHRA Las Vegas Nationals",
    "date": "2026-10-31",
    "time": "07:30:00",
@@ -2766,6 +2774,14 @@
    "time": "14:00:00",
    "url": "https://www.thesmithcenter.com/venue/reynolds-hall/",
    "type": "arts"
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "The Lettermen",
+   "date": "2026-10-31",
+   "time": "19:00",
+   "url": "https://am.ticketmaster.com/southpoint/buy?id=MTU5",
+   "type": "concert"
   },
   {
    "venue": "Westgate International Theater",
