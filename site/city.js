@@ -343,17 +343,6 @@
       feed: { kind: 'tribe', secondary: true, url: 'https://virginhotelslv.com/wp-json/tribe/events/v1/events', venues: /24 oxford/i, drop: /hotel packages/i }, // the resort's own calendar, this venue's rows, secondary behind Ticketmaster (2026-10-27)
       alias: /24 oxford/i,
     },
-    'The Shag Room': { // Virgin Hotels' free lounge stage, read from the resort's own calendar (The Events Calendar; the feed covers every room, `rooms` keeps this one — the Theater and 24 Oxford come from Ticketmaster); the open-mic nights are dropped
-      geo: [36.1093, -115.153],
-      capacity: 200,
-      type: 'concert',
-      cssVar: '--v-shagroom',
-      color: '#86ea86',
-      url: 'https://virginhotelslv.com/events/',
-      icon: 'https://www.google.com/s2/favicons?domain=virginhotelslv.com&sz=128',
-      feed: { kind: 'tribe', url: 'https://virginhotelslv.com/wp-json/tribe/events/v1/events', rooms: /shag room/i, drop: /open mic/i },
-      alias: /shag room/i,
-    },
     // --- Beyond the Strip (`area: 'town'`): the UNLV campus, Summerlin's ballpark, Henderson's arena, downtown, the Orleans, the Speedway, the Smith Center, the Mandalay Bay and Linq music rooms ---
     'Thomas & Mack Center': {
       geo: [36.10515, -115.14359],
@@ -509,7 +498,7 @@
   };
 
   // The usual view: every room on — nothing here lists nightly bar programs
-  var DEFAULT_ON = ['Sphere', 'T-Mobile Arena', 'Allegiant Stadium', 'MGM Grand Garden Arena', 'Michelob ULTRA Arena', 'Dolby Live', 'The Colosseum', 'PH Live', 'Resorts World Theatre', 'Fontainebleau', 'The Chelsea', 'Virgin Theater', 'Encore Theater', 'The Venetian Theatre', 'Pearl Concert Theater', 'Voltaire', 'Thomas & Mack Center', 'Las Vegas Ballpark', "Lee's Family Forum", 'Cashman Field', 'Orleans Arena', 'Las Vegas Motor Speedway', 'Reynolds Hall', 'House of Blues', 'Brooklyn Bowl', 'Westgate International Theater', 'Palazzo Theatre', '24 Oxford', 'The Shag Room', 'South Point Showroom', 'Golden Nugget Showroom'];
+  var DEFAULT_ON = ['Sphere', 'T-Mobile Arena', 'Allegiant Stadium', 'MGM Grand Garden Arena', 'Michelob ULTRA Arena', 'Dolby Live', 'The Colosseum', 'PH Live', 'Resorts World Theatre', 'Fontainebleau', 'The Chelsea', 'Virgin Theater', 'Encore Theater', 'The Venetian Theatre', 'Pearl Concert Theater', 'Voltaire', 'Thomas & Mack Center', 'Las Vegas Ballpark', "Lee's Family Forum", 'Cashman Field', 'Orleans Arena', 'Las Vegas Motor Speedway', 'Reynolds Hall', 'House of Blues', 'Brooklyn Bowl', 'Westgate International Theater', 'Palazzo Theatre', '24 Oxford', 'South Point Showroom', 'Golden Nugget Showroom'];
   var DEFAULT_OFF = [];
   var PREFS_KNOWN_FROM = null; // no default-off venue yet, so nothing for saved prefs to be told about
 
@@ -535,6 +524,7 @@
     ['team', 'goldenknights'], ['team', 'raiders'], ['team', 'aces'], ['team', 'aviators'], ['team', 'silverknights'], ['team', 'rebels'], ['team', 'runninrebels'], ['team', 'lights'],
     ['cap', 'stadium'], ['cap', 'arena'], ['cap', 'hall'], ['cap', 'room'],
     // the rooms added 2026-10-14, after the first codes were shared — new keys go at the end so old codes keep their meaning
+    // (The Shag Room left the list 2026-11-01 — Steve: "drop it", a 200-seat free lounge on a board of arenas and showrooms; its slot stays reserved so old share codes keep meaning what they meant)
     ['venue', 'Westgate International Theater'], ['venue', 'Palazzo Theatre'], ['venue', '24 Oxford'], ['venue', 'The Shag Room'], ['venue', 'South Point Showroom'], ['venue', 'Golden Nugget Showroom'],
   ];
 
