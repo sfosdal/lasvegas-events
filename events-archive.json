@@ -2986,6 +2986,22 @@
    "time": "20:00:00",
    "url": "https://www.axs.com/events/1475905/maria-jose-moenia-tickets?skin=palmscasinoresort",
    "type": "concert"
+  },
+  {
+   "venue": "T-Mobile Arena",
+   "title": "TNT Sports Hall of Fame Series Las Vegas",
+   "date": "2026-11-02",
+   "time": "10:30",
+   "url": "https://www.t-mobilearena.com/events/detail/2026-hall-of-fame-series-las-vegas",
+   "type": "sports"
+  },
+  {
+   "venue": "T-Mobile Arena",
+   "title": "2026 Hall of Fame Series Las Vegas - Session 2 (Time Subject to Change) Game 1: Purdue vs Gonzaga (Men) / Game 2: Arizona vs UCLA (Men)",
+   "date": "2026-11-02",
+   "time": "17:00:00",
+   "url": "https://www.t-mobilearena.com/events",
+   "type": "sports"
   }
  ]
 }
