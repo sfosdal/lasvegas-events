@@ -551,6 +551,7 @@
     teams: TEAMS,
     map: { // the Map view (local-map.js; the ground drawn once by scripts/build-local-map.mjs from OpenStreetMap, committed as site/local-map.json) — every city gets one, Steve, 2026-10-26
       kind: 'urban',
+      boundary: { osm: 170117 }, // the city line, always drawn (Steve, 2026-11-02): OpenStreetMap's boundary relation for the City of Las Vegas (the Strip lies outside it, in Paradise)
       bbox: [35.972, -115.38, 36.31, -114.953], // south, west, north, east — every room, with a margin
       home: [36.075, -115.208, 36.149, -115.133], // the view at first: the city's own rooms; the fit button shows the whole frame
       roads: ['motorway', 'trunk', 'primary'],
