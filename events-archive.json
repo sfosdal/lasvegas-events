@@ -3002,6 +3002,27 @@
    "time": "17:00:00",
    "url": "https://www.t-mobilearena.com/events",
    "type": "sports"
+  },
+  {
+   "venue": "Allegiant Stadium",
+   "title": "Election Day",
+   "date": "2026-11-03",
+   "time": "07:00",
+   "url": "https://www.allegiantstadium.com/events/detail/election-day-2026",
+   "type": "sports"
+  },
+  {
+   "venue": "Thomas & Mack Center",
+   "title": "UNLV Rebels Mens Basketball vs. Northern Arizona Lumberjacks Mens Basketball",
+   "date": "2026-11-03",
+   "time": "19:00:00",
+   "url": "",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "MW+"
+    ]
+   }
   }
  ]
 }
