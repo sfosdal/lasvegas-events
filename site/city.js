@@ -495,10 +495,66 @@
         item: /<div class="Card-wrapper">/, title: /<a href="(\/las-vegas\/entertainment\/entertainers\/[^"]+)"[^>]*>[\s\S]*?<h3 class="Card-title">([^<]+)</, when: /<div class="Card-text">([^<]*\d{4}[^<]*)</ },
       alias: /golden nugget/i,
     },
+    // --- On DICE (2026-11-03, Steve: "add all dice venues in cities/neighborhoods covered"): every venue on DICE's city page inside the map, read from its public DICE venue page ---
+    'Grey Witch': { // on DICE (722 West Sunset Road, Henderson, Nevada 89011); its DICE venue page is the listing (2026-11-03)
+      geo: [36.06453, -115.02374],
+      area: 'town',
+      type: 'concert',
+      cssVar: '--v-greywitch',
+      color: '#86c8ea',
+      url: 'https://www.greywitchlv.com/',
+      icon: 'https://www.google.com/s2/favicons?domain=www.greywitchlv.com&sz=128',
+      feed: { kind: 'dice', url: 'https://dice.fm/venue/14603' },
+    },
+    'Backstage Bar & Billiards': { // on DICE (601 E Fremont St, Las Vegas, NV 89101); its DICE venue page is the listing (2026-11-03); DICE's other rooms in the building (Fremont Country Club) are read below as city feeds pinned here
+      geo: [36.16836, -115.13935],
+      area: 'town',
+      type: 'concert',
+      cssVar: '--v-backstagebarbi',
+      color: '#f0cca8',
+      url: 'https://www.backstagebarlv.com/',
+      icon: 'https://www.google.com/s2/favicons?domain=www.backstagebarlv.com&sz=128',
+      feed: { kind: 'dice', url: 'https://dice.fm/venue/7531' },
+    },
+    'The Usual Place': { // on DICE (100 South Maryland Parkway, Las Vegas, Nevada 89101); its DICE venue page is the listing (2026-11-03)
+      geo: [36.16563, -115.13349],
+      area: 'town',
+      type: 'concert',
+      cssVar: '--v-usualplace',
+      color: '#e363d7',
+      url: 'https://www.theusualplace.vegas/',
+      icon: 'https://www.google.com/s2/favicons?domain=www.theusualplace.vegas&sz=128',
+      feed: { kind: 'dice', url: 'https://dice.fm/venue/11587' },
+    },
+    'The Dive Bar': { // on DICE (4110 South Maryland Parkway, Las Vegas, Nevada 89119); its DICE venue page is the listing (2026-11-03)
+      geo: [36.11297, -115.13709],
+      area: 'town',
+      type: 'concert',
+      cssVar: '--v-divebar',
+      color: '#c5ea86',
+      url: 'https://dice.fm/venue/11605',
+      icon: 'https://www.google.com/s2/favicons?domain=dice.fm&sz=128',
+      feed: { kind: 'dice', url: 'https://dice.fm/venue/11605' },
+    },
+    'Bizarre Bar': { // on DICE (1301 South Main Street, Las Vegas, Nevada 89104); its DICE venue page is the listing (2026-11-03)
+      geo: [36.15583, -115.15338],
+      area: 'town',
+      type: 'concert',
+      cssVar: '--v-bizarrebar',
+      color: '#aff0a8',
+      url: 'https://www.bizarrebarlv.com/',
+      icon: 'https://www.google.com/s2/favicons?domain=www.bizarrebarlv.com&sz=128',
+      feed: { kind: 'dice', url: 'https://dice.fm/venue/12770' },
+    },
   };
+  // City-wide feeds: DICE lists some buildings room by room; each room's page is read and pinned to the building (2026-11-03)
+  var FEEDS = [
+    { kind: 'dice', label: 'Backstage Bar & Billiards — Fremont Country Club', url: 'https://dice.fm/venue/7511', venue: 'Backstage Bar & Billiards' },
+  ];
+
 
   // The usual view: every room on — nothing here lists nightly bar programs
-  var DEFAULT_ON = ['Sphere', 'T-Mobile Arena', 'Allegiant Stadium', 'MGM Grand Garden Arena', 'Michelob ULTRA Arena', 'Dolby Live', 'The Colosseum', 'PH Live', 'Resorts World Theatre', 'Fontainebleau', 'The Chelsea', 'Virgin Theater', 'Encore Theater', 'The Venetian Theatre', 'Pearl Concert Theater', 'Voltaire', 'Thomas & Mack Center', 'Las Vegas Ballpark', "Lee's Family Forum", 'Cashman Field', 'Orleans Arena', 'Las Vegas Motor Speedway', 'Reynolds Hall', 'House of Blues', 'Brooklyn Bowl', 'Westgate International Theater', 'Palazzo Theatre', '24 Oxford', 'South Point Showroom', 'Golden Nugget Showroom'];
+  var DEFAULT_ON = ['Sphere', 'T-Mobile Arena', 'Allegiant Stadium', 'MGM Grand Garden Arena', 'Michelob ULTRA Arena', 'Dolby Live', 'The Colosseum', 'PH Live', 'Resorts World Theatre', 'Fontainebleau', 'The Chelsea', 'Virgin Theater', 'Encore Theater', 'The Venetian Theatre', 'Pearl Concert Theater', 'Voltaire', 'Thomas & Mack Center', 'Las Vegas Ballpark', "Lee's Family Forum", 'Cashman Field', 'Orleans Arena', 'Las Vegas Motor Speedway', 'Reynolds Hall', 'House of Blues', 'Brooklyn Bowl', 'Westgate International Theater', 'Palazzo Theatre', '24 Oxford', 'South Point Showroom', 'Golden Nugget Showroom', 'Grey Witch', 'Backstage Bar & Billiards', 'The Usual Place', 'The Dive Bar', 'Bizarre Bar'];
   var DEFAULT_OFF = [];
   var PREFS_KNOWN_FROM = null; // no default-off venue yet, so nothing for saved prefs to be told about
 
@@ -517,7 +573,7 @@
   // adding an entry adds a bit and every existing code keeps meaning what
   // it meant; removing or reordering one changes every link out there.
   // 41 slots from the first build: 8 base-36 digits.
-  var CODE_LENGTH = 8;
+  var CODE_LENGTH = 11; // 2026-11-03: 52 slots with the DICE venues
   var REGISTRY = [
     ['venue', 'Sphere'], ['venue', 'T-Mobile Arena'], ['venue', 'Allegiant Stadium'], ['venue', 'MGM Grand Garden Arena'], ['venue', 'Michelob ULTRA Arena'], ['venue', 'Dolby Live'], ['venue', 'The Colosseum'], ['venue', 'PH Live'], ['venue', 'Resorts World Theatre'], ['venue', 'Fontainebleau'], ['venue', 'The Chelsea'], ['venue', 'Virgin Theater'], ['venue', 'Encore Theater'], ['venue', 'The Venetian Theatre'], ['venue', 'Pearl Concert Theater'], ['venue', 'Voltaire'], ['venue', 'Thomas & Mack Center'], ['venue', 'Las Vegas Ballpark'], ['venue', "Lee's Family Forum"], ['venue', 'Cashman Field'], ['venue', 'Orleans Arena'], ['venue', 'Las Vegas Motor Speedway'], ['venue', 'Reynolds Hall'], ['venue', 'House of Blues'], ['venue', 'Brooklyn Bowl'],
     ['badge', 'concert'], ['badge', 'sports'], ['badge', 'arts'], ['badge', 'community'],
@@ -526,6 +582,8 @@
     // the rooms added 2026-10-14, after the first codes were shared — new keys go at the end so old codes keep their meaning
     // (The Shag Room left the list 2026-11-01 — Steve: "drop it", a 200-seat free lounge on a board of arenas and showrooms; its slot stays reserved so old share codes keep meaning what they meant)
     ['venue', 'Westgate International Theater'], ['venue', 'Palazzo Theatre'], ['venue', '24 Oxford'], ['venue', 'The Shag Room'], ['venue', 'South Point Showroom'], ['venue', 'Golden Nugget Showroom'],
+    ['venue', 'Grey Witch'], ['venue', 'Backstage Bar & Billiards'], ['venue', 'The Usual Place'], ['venue', 'The Dive Bar'],
+    ['venue', 'Bizarre Bar'], // 2026-11-03: the DICE venues, 52 slots, 11 digits
   ];
 
   // The words the page uses for the place
@@ -563,6 +621,7 @@
       ],
     },
     venues: VENUES,
+    feeds: FEEDS,
     defaultOn: DEFAULT_ON,
     defaultOff: DEFAULT_OFF,
     prefsKnownFrom: PREFS_KNOWN_FROM,
