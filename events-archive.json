@@ -3023,6 +3023,30 @@
      "MW+"
     ]
    }
+  },
+  {
+   "venue": "House of Blues",
+   "title": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+   "date": "2026-11-04",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-04-2026/event/170064E18A2B80F1",
+   "type": "concert"
+  },
+  {
+   "venue": "The Venetian Theatre",
+   "title": "The Book of Mormon (Touring)",
+   "date": "2026-11-04",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/the-book-of-mormon-touring-las-vegas-nevada-11-04-2026/event/17006488A9B82D22",
+   "type": "arts"
+  },
+  {
+   "venue": "The Colosseum",
+   "title": "Tim McGraw: Live in Las Vegas",
+   "date": "2026-11-04",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/tim-mcgraw-live-in-las-vegas-las-vegas-nevada-11-04-2026/event/390064D1D24B31C0",
+   "type": "concert"
   }
  ]
 }
