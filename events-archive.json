@@ -3047,6 +3047,87 @@
    "time": "20:00:00",
    "url": "https://www.ticketmaster.com/tim-mcgraw-live-in-las-vegas-las-vegas-nevada-11-04-2026/event/390064D1D24B31C0",
    "type": "concert"
+  },
+  {
+   "venue": "Thomas & Mack Center",
+   "title": "UNLV Athletics Hall of Fame Ceremony",
+   "date": "2026-11-05",
+   "time": "",
+   "url": "https://www.unlvtickets.com/eventInfo/ath/789/unlv-athletics-hall-of-fame-ceremony/",
+   "type": "sports"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "Nhra Division 7 Lucas Oil Drag Racing Series (Lodrs 7-8)",
+   "date": "2026-11-05",
+   "time": "",
+   "url": "https://www.lvms.com/events/lucas-oil-drag-racing-series/",
+   "type": "sports"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "Open Wheel Showdown",
+   "date": "2026-11-05",
+   "time": "",
+   "url": "https://tickets.thefoat.com/openwheelshowdown",
+   "type": "sports"
+  },
+  {
+   "venue": "Grey Witch",
+   "title": "Kurt Travis",
+   "date": "2026-11-05",
+   "time": "18:00",
+   "url": "https://dice.fm/event/6a866f9a3922880001c4b3ea",
+   "end": "22:00",
+   "type": "concert"
+  },
+  {
+   "venue": "Westgate International Theater",
+   "title": "Barry Manilow",
+   "date": "2026-11-05",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-05-2026/event/170062F0FD566360",
+   "type": "concert"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+   "date": "2026-11-05",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-05-2026/event/170064E18A3080FA",
+   "type": "concert"
+  },
+  {
+   "venue": "The Venetian Theatre",
+   "title": "The Book of Mormon (Touring)",
+   "date": "2026-11-05",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/the-book-of-mormon-touring-las-vegas-nevada-11-05-2026/event/17006488A9BD2D36",
+   "type": "arts"
+  },
+  {
+   "venue": "Golden Nugget Showroom",
+   "title": "Gordie Brown",
+   "date": "2026-11-05",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/gordie-brown-las-vegas-nevada-11-05-2026/event/17006533CB6BE524",
+   "type": "arts"
+  },
+  {
+   "venue": "Pearl Concert Theater",
+   "title": "Mon Laferte - Femme Fatale Tour",
+   "date": "2026-11-05",
+   "time": "20:00:00",
+   "url": "https://www.axs.com/events/1368929/mon-laferte-femme-fatale-tour-tickets?skin=palmscasinoresort",
+   "type": "concert"
+  },
+  {
+   "venue": "Sphere",
+   "title": "Metallica: Life Burns Faster",
+   "date": "2026-11-05",
+   "time": "20:30:00",
+   "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-05-2026/event/170064550782E86E",
+   "type": "concert"
   }
  ]
 }
