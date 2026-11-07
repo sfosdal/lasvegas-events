@@ -530,7 +530,6 @@
       cssVar: '--v-divebar',
       color: '#c5ea86',
       url: 'https://dice.fm/venue/11605',
-      icon: 'marks/venues/dice.fm.png',
       feed: { kind: 'dice', url: 'https://dice.fm/venue/11605' },
     },
     'Bizarre Bar': { // on DICE (1301 South Main Street, Las Vegas, Nevada 89104); its DICE venue page is the listing (2026-11-03)
