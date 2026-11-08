@@ -3297,6 +3297,188 @@
    "time": "21:30:00",
    "url": "https://www.ticketmaster.com/90s-corridos-tour-las-vegas-nevada-11-06-2026/event/1700652FBABB1136",
    "type": "concert"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "Nhra Division 7 Lucas Oil Drag Racing Series (Lodrs 7-8)",
+   "date": "2026-11-07",
+   "time": "",
+   "url": "https://www.lvms.com/events/lucas-oil-drag-racing-series/",
+   "type": "sports"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "Open Wheel Showdown",
+   "date": "2026-11-07",
+   "time": "",
+   "url": "https://tickets.thefoat.com/openwheelshowdown",
+   "type": "sports"
+  },
+  {
+   "venue": "The Venetian Theatre",
+   "title": "The Book of Mormon (Touring)",
+   "date": "2026-11-07",
+   "time": "14:00:00",
+   "url": "https://www.ticketmaster.com/the-book-of-mormon-touring-las-vegas-nevada-11-07-2026/event/17006488A9CB2D82",
+   "type": "arts"
+  },
+  {
+   "venue": "Reynolds Hall",
+   "title": "Bluey's Big Play - The Stage Show",
+   "date": "2026-11-07",
+   "time": "14:00:00",
+   "url": "https://www.thesmithcenter.com/venue/reynolds-hall/",
+   "type": "arts"
+  },
+  {
+   "venue": "T-Mobile Arena",
+   "title": "PBR Team Series Championship - Saturday",
+   "date": "2026-11-07",
+   "time": "16:45:00",
+   "url": "https://www.t-mobilearena.com/events",
+   "type": "sports"
+  },
+  {
+   "venue": "Lee's Family Forum",
+   "title": "Henderson Silver Knights vs. San Diego Gulls",
+   "date": "2026-11-07",
+   "time": "18:00:00",
+   "url": "https://www.leesfamilyforum.com/events",
+   "type": "sports"
+  },
+  {
+   "venue": "Reynolds Hall",
+   "title": "Bluey's Big Play - The Stage Show",
+   "date": "2026-11-07",
+   "time": "18:00:00",
+   "url": "https://www.thesmithcenter.com/venue/reynolds-hall/",
+   "type": "arts"
+  },
+  {
+   "venue": "Westgate International Theater",
+   "title": "Barry Manilow",
+   "date": "2026-11-07",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-07-2026/event/170062F0FD5B6364",
+   "type": "concert"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+   "date": "2026-11-07",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-07-2026/event/170064E18A358103",
+   "type": "concert"
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "Phat Cat Swinger",
+   "date": "2026-11-07",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/phat-cat-swinger-las-vegas-nevada-11-07-2026/event/1700651700CD2162",
+   "type": "concert"
+  },
+  {
+   "venue": "Allegiant Stadium",
+   "title": "UNLV Rebels Football vs. Wyoming Cowboys Football",
+   "date": "2026-11-07",
+   "time": "19:30:00",
+   "url": "https://www.allegiantstadium.com/events",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "CBSSN"
+    ]
+   }
+  },
+  {
+   "venue": "The Venetian Theatre",
+   "title": "The Book of Mormon (Touring)",
+   "date": "2026-11-07",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/the-book-of-mormon-touring-las-vegas-nevada-11-07-2026/event/17006488A9C72D64",
+   "type": "arts"
+  },
+  {
+   "venue": "Golden Nugget Showroom",
+   "title": "Gordie Brown",
+   "date": "2026-11-07",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/gordie-brown-las-vegas-nevada-11-07-2026/event/17006533CB71E546",
+   "type": "arts"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "Phil Stendek",
+   "date": "2026-11-07",
+   "time": "20:00",
+   "url": "",
+   "type": "concert"
+  },
+  {
+   "venue": "The Colosseum",
+   "title": "Tim McGraw: Live in Las Vegas",
+   "date": "2026-11-07",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/tim-mcgraw-live-in-las-vegas-las-vegas-nevada-11-07-2026/event/390064D1D24131B8",
+   "type": "concert"
+  },
+  {
+   "venue": "PH Live",
+   "title": "Jeezy: The Legend of The Snowman",
+   "date": "2026-11-07",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/jeezy-the-legend-of-the-snowman-las-vegas-nevada-11-07-2026/event/39006497FB59E7CD",
+   "type": "concert"
+  },
+  {
+   "venue": "The Chelsea",
+   "title": "Daniel Tosh: My First Farewell Tour",
+   "date": "2026-11-07",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/daniel-tosh-my-first-farewell-tour-las-vegas-nevada-11-07-2026/event/17006331CBEE664A",
+   "type": "arts"
+  },
+  {
+   "venue": "Encore Theater",
+   "title": "Brad Paisley - One Man Six Strings",
+   "date": "2026-11-07",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/brad-paisley-one-man-six-strings-las-vegas-nevada-11-07-2026/event/170064E9F4019100",
+   "type": "concert"
+  },
+  {
+   "venue": "Pearl Concert Theater",
+   "title": "Daughtry",
+   "date": "2026-11-07",
+   "time": "20:00:00",
+   "url": "https://www.axs.com/events/1486755/daughtry-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Sphere",
+   "title": "Metallica: Life Burns Faster",
+   "date": "2026-11-07",
+   "time": "20:30:00",
+   "url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-07-2026/event/170064550782E874",
+   "type": "concert"
+  },
+  {
+   "venue": "Voltaire",
+   "title": "Dita Von Teese",
+   "date": "2026-11-07",
+   "time": "21:00:00",
+   "url": "https://www.ticketmaster.com/dita-von-teese-las-vegas-nevada-11-07-2026/event/17006513D3B14983",
+   "age21": true,
+   "type": "arts"
+  },
+  {
+   "venue": "Palazzo Theatre",
+   "title": "Brad Williams",
+   "date": "2026-11-07",
+   "time": "21:30:00",
+   "url": "https://www.ticketmaster.com/brad-williams-las-vegas-nevada-11-07-2026/event/17006463AF547D26",
+   "type": "arts"
   }
  ]
 }
