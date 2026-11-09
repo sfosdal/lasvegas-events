@@ -3061,7 +3061,7 @@
    "title": "Nhra Division 7 Lucas Oil Drag Racing Series (Lodrs 7-8)",
    "date": "2026-11-05",
    "time": "",
-   "url": "https://www.lvms.com/events/lucas-oil-drag-racing-series/",
+   "url": "https://www.lvms.com/events/",
    "type": "sports"
   },
   {
@@ -3134,7 +3134,7 @@
    "title": "Nhra Division 7 Lucas Oil Drag Racing Series (Lodrs 7-8)",
    "date": "2026-11-06",
    "time": "",
-   "url": "https://www.lvms.com/events/lucas-oil-drag-racing-series/",
+   "url": "https://www.lvms.com/events/",
    "type": "sports"
   },
   {
@@ -3303,7 +3303,7 @@
    "title": "Nhra Division 7 Lucas Oil Drag Racing Series (Lodrs 7-8)",
    "date": "2026-11-07",
    "time": "",
-   "url": "https://www.lvms.com/events/lucas-oil-drag-racing-series/",
+   "url": "https://www.lvms.com/events/",
    "type": "sports"
   },
   {
@@ -3478,6 +3478,79 @@
    "date": "2026-11-07",
    "time": "21:30:00",
    "url": "https://www.ticketmaster.com/brad-williams-las-vegas-nevada-11-07-2026/event/17006463AF547D26",
+   "type": "arts"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "Nhra Division 7 Lucas Oil Drag Racing Series (Lodrs 7-8)",
+   "date": "2026-11-08",
+   "time": "",
+   "url": "https://www.lvms.com/events/",
+   "type": "sports"
+  },
+  {
+   "venue": "The Venetian Theatre",
+   "title": "The Book of Mormon (Touring)",
+   "date": "2026-11-08",
+   "time": "14:00:00",
+   "url": "https://www.ticketmaster.com/the-book-of-mormon-touring-las-vegas-nevada-11-08-2026/event/17006488A9D52DDF",
+   "type": "arts"
+  },
+  {
+   "venue": "Reynolds Hall",
+   "title": "Bluey's Big Play - The Stage Show",
+   "date": "2026-11-08",
+   "time": "14:00:00",
+   "url": "https://www.thesmithcenter.com/venue/reynolds-hall/",
+   "type": "arts"
+  },
+  {
+   "venue": "T-Mobile Arena",
+   "title": "PBR Team Series Championship - Sunday",
+   "date": "2026-11-08",
+   "time": "14:15:00",
+   "url": "https://www.t-mobilearena.com/events",
+   "type": "sports"
+  },
+  {
+   "venue": "PH Live",
+   "title": "Jeff Dunham: Inappropriate Contact",
+   "date": "2026-11-08",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/jeff-dunham-inappropriate-contact-las-vegas-nevada-11-08-2026/event/39006358CB009D40",
+   "type": "arts"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+   "date": "2026-11-08",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-08-2026/event/170064E18A3B8112",
+   "type": "concert"
+  },
+  {
+   "venue": "The Venetian Theatre",
+   "title": "The Book of Mormon (Touring)",
+   "date": "2026-11-08",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/the-book-of-mormon-touring-las-vegas-nevada-11-08-2026/event/17006488A9D02DC0",
+   "type": "arts"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "Deuces Wild",
+   "date": "2026-11-08",
+   "time": "20:00",
+   "url": "",
+   "type": "concert"
+  },
+  {
+   "venue": "Voltaire",
+   "title": "Dita Von Teese",
+   "date": "2026-11-08",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/dita-von-teese-las-vegas-nevada-11-08-2026/event/17006513D3B3498B",
+   "age21": true,
    "type": "arts"
   }
  ]
