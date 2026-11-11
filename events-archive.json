@@ -3073,6 +3073,14 @@
    "type": "sports"
   },
   {
+   "venue": "T-Mobile Arena",
+   "title": "PBR Team Series Championship",
+   "date": "2026-11-05",
+   "time": "",
+   "url": "https://www.t-mobilearena.com/events/detail/pbr-team-series-championship-1",
+   "type": "sports"
+  },
+  {
    "venue": "Grey Witch",
    "title": "Kurt Travis",
    "date": "2026-11-05",
@@ -3551,6 +3559,23 @@
    "time": "20:00:00",
    "url": "https://www.ticketmaster.com/dita-von-teese-las-vegas-nevada-11-08-2026/event/17006513D3B3498B",
    "age21": true,
+   "type": "arts"
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "Michael Jackson Thrilling Tribute: Benefit Autism Coalition of Nevada",
+   "date": "2026-11-10",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/michael-jackson-thrilling-tribute-benefit-autism-las-vegas-nevada-11-10-2026/event/17006514D2D02142",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "The Venetian Theatre",
+   "title": "The Book of Mormon (Touring)",
+   "date": "2026-11-10",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/the-book-of-mormon-touring-las-vegas-nevada-11-10-2026/event/17006488A9D92DFC",
    "type": "arts"
   }
  ]
