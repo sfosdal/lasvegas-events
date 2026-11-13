@@ -3640,6 +3640,105 @@
    "time": "20:00:00",
    "url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-11-2026/event/170064F4CBE0D992",
    "type": "concert"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "SKUSA Supernationals 29",
+   "date": "2026-11-12",
+   "time": "",
+   "url": "https://www.superkartsusa.com/national/skusa-supernationals.html",
+   "type": "sports"
+  },
+  {
+   "venue": "Brooklyn Bowl",
+   "title": "Underoath - Define the Great Line 20th Anniversary Tour",
+   "date": "2026-11-12",
+   "time": "17:30:00",
+   "url": "https://www.ticketmaster.com/underoath-define-the-great-line-20th-las-vegas-nevada-11-12-2026/event/170064C2DBE22262",
+   "type": "concert"
+  },
+  {
+   "venue": "24 Oxford",
+   "title": "Kiss Kruise The Official Pre-Party",
+   "date": "2026-11-12",
+   "time": "18:30",
+   "url": "https://virginhotelslv.com/event/kiss-kruise-the-official-pre-party/",
+   "type": "concert"
+  },
+  {
+   "venue": "Westgate International Theater",
+   "title": "Barry Manilow",
+   "date": "2026-11-12",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-12-2026/event/170062F0FD5E6369",
+   "type": "concert"
+  },
+  {
+   "venue": "Lee's Family Forum",
+   "title": "Henderson Silver Knights vs. Calgary Wranglers",
+   "date": "2026-11-12",
+   "time": "19:00:00",
+   "url": "https://www.leesfamilyforum.com/events",
+   "type": "sports"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+   "date": "2026-11-12",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-12-2026/event/170064E18A46811E",
+   "type": "concert"
+  },
+  {
+   "venue": "The Venetian Theatre",
+   "title": "The Book of Mormon (Touring)",
+   "date": "2026-11-12",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/the-book-of-mormon-touring-las-vegas-nevada-11-12-2026/event/17006488A9E32E5D",
+   "type": "arts"
+  },
+  {
+   "venue": "Golden Nugget Showroom",
+   "title": "Gordie Brown",
+   "date": "2026-11-12",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/gordie-brown-las-vegas-nevada-11-12-2026/event/17006533CB79E55C",
+   "type": "arts"
+  },
+  {
+   "venue": "The Colosseum",
+   "title": "Viva La Lisa",
+   "date": "2026-11-12",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/viva-la-lisa-las-vegas-nevada-11-12-2026/event/39006496CA3EE335",
+   "type": "concert"
+  },
+  {
+   "venue": "Pearl Concert Theater",
+   "title": "Pedro Fernández - Ave Fénix Two'r",
+   "date": "2026-11-12",
+   "time": "20:00:00",
+   "url": "https://www.axs.com/events/1551528/pedro-fernandez-ave-fenix-twor-tickets?skin=palmscasinoresort",
+   "type": "concert"
+  },
+  {
+   "venue": "Voltaire",
+   "title": "Dita Von Teese",
+   "date": "2026-11-12",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/dita-von-teese-las-vegas-nevada-11-12-2026/event/17006513D3B5498E",
+   "age21": true,
+   "type": "arts"
+  },
+  {
+   "venue": "24 Oxford",
+   "title": "Puma Blue",
+   "date": "2026-11-12",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/puma-blue-las-vegas-nevada-11-12-2026/event/170064C5C37A4E5F",
+   "type": "concert",
+   "status": "cancelled",
+   "statusSince": "2026-10-14T20:41:37.836Z"
   }
  ]
 }
