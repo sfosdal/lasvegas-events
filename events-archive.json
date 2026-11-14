@@ -3739,6 +3739,220 @@
    "type": "concert",
    "status": "cancelled",
    "statusSince": "2026-10-14T20:41:37.836Z"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "SKUSA Supernationals 29",
+   "date": "2026-11-13",
+   "time": "",
+   "url": "https://www.superkartsusa.com/national/skusa-supernationals.html",
+   "type": "sports"
+  },
+  {
+   "venue": "The Venetian Theatre",
+   "title": "The Book of Mormon (Touring)",
+   "date": "2026-11-13",
+   "time": "14:00:00",
+   "url": "https://www.ticketmaster.com/the-book-of-mormon-touring-las-vegas-nevada-11-13-2026/event/17006488A9EC2EE5",
+   "type": "arts"
+  },
+  {
+   "venue": "Lee's Family Forum",
+   "title": "Lee’s 23rd Annual Wine Experience",
+   "date": "2026-11-13",
+   "time": "16:00",
+   "url": "https://leesfamilyforum.com/lees-23rd-annual-wine-experience/",
+   "type": "sports"
+  },
+  {
+   "venue": "Thomas & Mack Center",
+   "title": "UNLV Rebels Mens Basketball vs. Stanford Cardinal Mens Basketball",
+   "date": "2026-11-13",
+   "time": "18:00:00",
+   "url": "https://www.thomasandmack.com/",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "CBSSN"
+    ]
+   }
+  },
+  {
+   "venue": "Brooklyn Bowl",
+   "title": "State Champs - 10 Years Of 'Around The World And Back'",
+   "date": "2026-11-13",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/state-champs-10-years-of-around-las-vegas-nevada-11-13-2026/event/170064C9FB5B3AD0",
+   "type": "concert"
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "Stayin’ Alive One Night of The Bee Gees",
+   "date": "2026-11-13",
+   "time": "19:00",
+   "url": "https://am.ticketmaster.com/southpoint/buy?id=MTE1",
+   "type": "concert"
+  },
+  {
+   "venue": "T-Mobile Arena",
+   "title": "Vegas Golden Knights vs. Nashville Predators",
+   "date": "2026-11-13",
+   "time": "19:00:00",
+   "url": "https://www.t-mobilearena.com/events",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "SCRIPPS"
+    ]
+   }
+  },
+  {
+   "venue": "Dolby Live",
+   "title": "Kill Tony",
+   "date": "2026-11-13",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/kill-tony-las-vegas-nevada-11-13-2026/event/2E0064D7954F14E4",
+   "age21": true,
+   "type": "arts"
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "Stayin' Alive: One Night of the Bee Gees",
+   "date": "2026-11-13",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/stayin-alive-one-night-of-the-las-vegas-nevada-11-13-2026/event/17006514AD0CC8B2",
+   "type": "concert"
+  },
+  {
+   "venue": "Grey Witch",
+   "title": "Market Macabre",
+   "date": "2026-11-13",
+   "time": "19:30",
+   "url": "https://dice.fm/event/6ade465bfcdfa90001ca0d31",
+   "end": "23:30",
+   "type": "concert"
+  },
+  {
+   "venue": "The Venetian Theatre",
+   "title": "The Book of Mormon (Touring)",
+   "date": "2026-11-13",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/the-book-of-mormon-touring-las-vegas-nevada-11-13-2026/event/17006488A9E82EB1",
+   "type": "arts"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "Gary Numan North American Fall Tour 2026",
+   "date": "2026-11-13",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/gary-numan-north-american-fall-tour-las-vegas-nevada-11-13-2026/event/17006498EC67E463",
+   "type": "concert"
+  },
+  {
+   "venue": "Backstage Bar & Billiards",
+   "title": "Sky Knives Live Debut & EP Release",
+   "date": "2026-11-13",
+   "time": "20:00",
+   "url": "https://dice.fm/event/6ad30adf5194aa00011dcf2d",
+   "type": "concert"
+  },
+  {
+   "venue": "The Usual Place",
+   "title": "Plague Vendor w/ Flames Of Durga, Pure Sport",
+   "date": "2026-11-13",
+   "time": "20:00",
+   "url": "https://dice.fm/event/6a17cf9a6406930001c36de2",
+   "end": "23:45",
+   "type": "concert"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "Jacob Chidester",
+   "date": "2026-11-13",
+   "time": "20:00",
+   "url": "",
+   "type": "concert"
+  },
+  {
+   "venue": "The Colosseum",
+   "title": "Viva La Lisa",
+   "date": "2026-11-13",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/viva-la-lisa-las-vegas-nevada-11-13-2026/event/3900647BA22F2CD0",
+   "type": "concert"
+  },
+  {
+   "venue": "PH Live",
+   "title": "Jeezy: The Legend of The Snowman",
+   "date": "2026-11-13",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/jeezy-the-legend-of-the-snowman-las-vegas-nevada-11-13-2026/event/39006497FB5EE7D3",
+   "type": "concert"
+  },
+  {
+   "venue": "Resorts World Theatre",
+   "title": "Danny Elfman???s Music from the Films of Tim Burton",
+   "date": "2026-11-13",
+   "time": "20:00:00",
+   "url": "https://www.rwlasvegas.com/entertainment/",
+   "type": "concert"
+  },
+  {
+   "venue": "The Chelsea",
+   "title": "Steve Lacy: Oh yeah? Tour",
+   "date": "2026-11-13",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-las-vegas-nevada-11-13-2026/event/17006503801E64A9",
+   "type": "concert"
+  },
+  {
+   "venue": "Encore Theater",
+   "title": "Lionel Richie - King of Hearts",
+   "date": "2026-11-13",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-13-2026/event/170064F4CBE2D997",
+   "type": "concert"
+  },
+  {
+   "venue": "Pearl Concert Theater",
+   "title": "Babyface",
+   "date": "2026-11-13",
+   "time": "20:00:00",
+   "url": "https://www.axs.com/events/1175526/babyface-live-in-las-vegas-tickets?skin=palmscasinoresort",
+   "type": "concert"
+  },
+  {
+   "venue": "Westgate International Theater",
+   "title": "Barry Manilow",
+   "date": "2026-11-13",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-13-2026/event/170062F0FD60636C",
+   "type": "concert"
+  },
+  {
+   "venue": "Golden Nugget Showroom",
+   "title": "Dokken With George Lynch",
+   "date": "2026-11-13",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/dokken-with-george-lynch-las-vegas-nevada-11-13-2026/event/170064FC97CE9C5F",
+   "type": "concert"
+  },
+  {
+   "venue": "Sphere",
+   "title": "Eagles Live at Sphere",
+   "date": "2026-11-13",
+   "time": "20:30:00",
+   "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-13-2026/event/17006484FED11E2C",
+   "type": "concert"
+  },
+  {
+   "venue": "Voltaire",
+   "title": "Dita Von Teese",
+   "date": "2026-11-13",
+   "time": "21:00:00",
+   "url": "https://www.ticketmaster.com/dita-von-teese-las-vegas-nevada-11-13-2026/event/17006513D3B64993",
+   "age21": true,
+   "type": "arts"
   }
  ]
 }
