@@ -3583,7 +3583,7 @@
    "title": "SKUSA Supernationals 29",
    "date": "2026-11-11",
    "time": "",
-   "url": "https://www.superkartsusa.com/national/skusa-supernationals.html",
+   "url": "https://www.lvms.com/events/",
    "type": "sports"
   },
   {
@@ -3646,7 +3646,7 @@
    "title": "SKUSA Supernationals 29",
    "date": "2026-11-12",
    "time": "",
-   "url": "https://www.superkartsusa.com/national/skusa-supernationals.html",
+   "url": "https://www.lvms.com/events/",
    "type": "sports"
   },
   {
@@ -3745,7 +3745,7 @@
    "title": "SKUSA Supernationals 29",
    "date": "2026-11-13",
    "time": "",
-   "url": "https://www.superkartsusa.com/national/skusa-supernationals.html",
+   "url": "https://www.lvms.com/events/",
    "type": "sports"
   },
   {
@@ -3959,7 +3959,7 @@
    "title": "SKUSA Supernationals 29",
    "date": "2026-11-14",
    "time": "",
-   "url": "https://www.superkartsusa.com/national/skusa-supernationals.html",
+   "url": "https://www.lvms.com/events/",
    "type": "sports"
   },
   {
@@ -4187,6 +4187,123 @@
    "time": "23:30:00",
    "url": "https://www.ticketmaster.com/jeezy-the-legend-of-the-snowman-las-vegas-nevada-11-14-2026/event/39006497FB63E7D7",
    "type": "concert"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "SKUSA Supernationals 29",
+   "date": "2026-11-15",
+   "time": "",
+   "url": "https://www.lvms.com/events/",
+   "type": "sports"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "SCCA",
+   "date": "2026-11-15",
+   "time": "",
+   "url": "https://www.lvms.com/events/",
+   "type": "sports"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "Silver and Black Pre-Party w/ DJ Aztech",
+   "date": "2026-11-15",
+   "time": "10:00",
+   "url": "",
+   "type": "concert"
+  },
+  {
+   "venue": "Allegiant Stadium",
+   "title": "Las Vegas Raiders vs. Seattle Seahawks",
+   "date": "2026-11-15",
+   "time": "13:05:00",
+   "url": "https://www.ticketmaster.com/las-vegas-raiders-vs-seattle-seahawks-las-vegas-nevada-11-15-2026/event/1700646CC3C7C3F4",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "CBS"
+    ]
+   }
+  },
+  {
+   "venue": "The Venetian Theatre",
+   "title": "The Book of Mormon (Touring)",
+   "date": "2026-11-15",
+   "time": "14:00:00",
+   "url": "https://www.ticketmaster.com/the-book-of-mormon-touring-las-vegas-nevada-11-15-2026/event/17006488A9FC2F93",
+   "type": "arts"
+  },
+  {
+   "venue": "Grey Witch",
+   "title": "The Sprockets / Loineer",
+   "date": "2026-11-15",
+   "time": "18:00",
+   "url": "https://dice.fm/event/6acfdf7ff76aac00015c2620",
+   "end": "23:30",
+   "type": "concert"
+  },
+  {
+   "venue": "T-Mobile Arena",
+   "title": "Vegas Golden Knights vs. Vancouver Canucks",
+   "date": "2026-11-15",
+   "time": "18:00:00",
+   "url": "https://www.t-mobilearena.com/events",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "SCRIPPS"
+    ]
+   }
+  },
+  {
+   "venue": "Brooklyn Bowl",
+   "title": "Buzzcocks - Celebrating 50 Years Of Buzzcocks",
+   "date": "2026-11-15",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/buzzcocks-celebrating-50-years-of-buzzcocks-las-vegas-nevada-11-15-2026/event/170064EAEC68D52D",
+   "type": "concert"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+   "date": "2026-11-15",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-15-2026/event/170064E18A51812C",
+   "type": "concert"
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "Stayin' Alive: One Night of the Bee Gees",
+   "date": "2026-11-15",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/stayin-alive-one-night-of-the-las-vegas-nevada-11-15-2026/event/17006514AD0FC8BD",
+   "type": "concert"
+  },
+  {
+   "venue": "Bizarre Bar",
+   "title": "Soft Vein w/ Catherine Moan, Alex Argot",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "url": "https://dice.fm/event/6a427606aeb3bc00019baaba",
+   "end": "23:45",
+   "type": "concert"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "Phil Stendek",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "url": "",
+   "type": "concert"
+  },
+  {
+   "venue": "Voltaire",
+   "title": "Dita Von Teese",
+   "date": "2026-11-15",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/dita-von-teese-las-vegas-nevada-11-15-2026/event/17006513D3BA499B",
+   "age21": true,
+   "type": "arts"
   }
  ]
 }
