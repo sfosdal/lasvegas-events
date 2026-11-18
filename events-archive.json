@@ -4304,6 +4304,50 @@
    "url": "https://www.ticketmaster.com/dita-von-teese-las-vegas-nevada-11-15-2026/event/17006513D3BA499B",
    "age21": true,
    "type": "arts"
+  },
+  {
+   "venue": "Michelob ULTRA Arena",
+   "title": "Players Era 8 Men's Tournament - Session 2 (Kansas vs UNLV, West Virginia vs Auburn)",
+   "date": "2026-11-17",
+   "time": "18:30:00",
+   "url": "https://mandalaybay.mgmresorts.com/en/entertainment.html"
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "The Swinging Bronx Wanderers",
+   "date": "2026-11-17",
+   "time": "19:00",
+   "url": "https://am.ticketmaster.com/southpoint/buy?id=NDA3",
+   "type": "concert"
+  },
+  {
+   "venue": "T-Mobile Arena",
+   "title": "Vegas Golden Knights vs. Dallas Stars",
+   "date": "2026-11-17",
+   "time": "19:00:00",
+   "url": "https://www.t-mobilearena.com/events",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "TNT",
+     "truTV",
+     "HBO MAX"
+    ]
+   }
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "The Swinging Bronx Wanderers",
+   "date": "2026-11-17",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/the-swinging-bronx-wanderers-las-vegas-nevada-11-17-2026/event/17006514BBB9EA84",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-16T23:25:55.716Z",
+    "from": 48.28
+   }
   }
  ]
 }
