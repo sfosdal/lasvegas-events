@@ -4348,6 +4348,82 @@
     "checked": "2026-11-16T23:25:55.716Z",
     "from": 48.28
    }
+  },
+  {
+   "venue": "Dolby Live",
+   "title": "Pro Padel League MGM Las Vegas: 4-Day Tournament Pass",
+   "date": "2026-11-18",
+   "time": "",
+   "url": "https://www.ticketmaster.com/pro-padel-league-mgm-las-vegas-las-vegas-nevada-11-18-2026/event/2E006546DC0E8255",
+   "type": "sports"
+  },
+  {
+   "venue": "Michelob ULTRA Arena",
+   "title": "Players Era 8 Men's Tournament - Session 4",
+   "date": "2026-11-18",
+   "time": "16:30:00",
+   "url": "https://mandalaybay.mgmresorts.com/en/entertainment.html"
+  },
+  {
+   "venue": "Grey Witch",
+   "title": "Trsh Gone Fishin' Tour w Adjust The Sails",
+   "date": "2026-11-18",
+   "time": "17:00",
+   "url": "https://dice.fm/event/6a60471d238e960001c143c5",
+   "end": "22:00",
+   "type": "concert"
+  },
+  {
+   "venue": "Dolby Live",
+   "title": "Pro Padel League MGM Las Vegas",
+   "date": "2026-11-18",
+   "time": "17:00:00",
+   "url": "https://www.ticketmaster.com/pro-padel-league-mgm-las-vegas-las-vegas-nevada-11-18-2026/event/2E006546DBF18249",
+   "type": "sports",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-17T00:12:10.206Z",
+    "from": 139.39
+   }
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "The Swinging Bronx Wanderers",
+   "date": "2026-11-18",
+   "time": "19:00",
+   "url": "https://am.ticketmaster.com/southpoint/buy?id=NDA3",
+   "type": "concert"
+  },
+  {
+   "venue": "Lee's Family Forum",
+   "title": "Henderson Silver Knights vs. San Jose Barracuda",
+   "date": "2026-11-18",
+   "time": "19:00:00",
+   "url": "https://www.leesfamilyforum.com/events",
+   "type": "sports"
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "The Swinging Bronx Wanderers",
+   "date": "2026-11-18",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/the-swinging-bronx-wanderers-las-vegas-nevada-11-18-2026/event/17006514BBBCEA91",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-17T00:12:30.426Z",
+    "from": 48.28
+   }
+  },
+  {
+   "venue": "Backstage Bar & Billiards",
+   "title": "Trans Girls Las Vegas",
+   "date": "2026-11-18",
+   "time": "21:00",
+   "url": "https://dice.fm/event/6ae3c362f7133b00011c1109",
+   "type": "concert"
   }
  ]
 }
