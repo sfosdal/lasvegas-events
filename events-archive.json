@@ -4424,6 +4424,65 @@
    "time": "21:00",
    "url": "https://dice.fm/event/6ae3c362f7133b00011c1109",
    "type": "concert"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "Street Car Super Nationals (SCSN)",
+   "date": "2026-11-19",
+   "time": "",
+   "url": "https://streetcarsupernationals.com/las-vegas-spectator-tickets/",
+   "type": "sports"
+  },
+  {
+   "venue": "Dolby Live",
+   "title": "Pro Padel League MGM Las Vegas",
+   "date": "2026-11-19",
+   "time": "17:00:00",
+   "url": "https://www.ticketmaster.com/pro-padel-league-mgm-las-vegas-las-vegas-nevada-11-19-2026/event/2E006546DBF8824C",
+   "type": "sports",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-17T00:22:07.331Z",
+    "from": 139.39
+   }
+  },
+  {
+   "venue": "Michelob ULTRA Arena",
+   "title": "Players Era 8 Men's Tournament - Session 6",
+   "date": "2026-11-19",
+   "time": "17:30:00",
+   "url": "https://mandalaybay.mgmresorts.com/en/entertainment.html"
+  },
+  {
+   "venue": "T-Mobile Arena",
+   "title": "Vegas Golden Knights vs. Dallas Stars",
+   "date": "2026-11-19",
+   "time": "19:00:00",
+   "url": "https://www.t-mobilearena.com/events",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "ESPN+",
+     "HULU",
+     "SN",
+     "Disney+"
+    ]
+   }
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "The Swinging Bronx Wanderers",
+   "date": "2026-11-19",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/the-swinging-bronx-wanderers-las-vegas-nevada-11-19-2026/event/17006514BBBEEA9F",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-17T00:22:27.489Z",
+    "from": 48.28
+   }
   }
  ]
 }
