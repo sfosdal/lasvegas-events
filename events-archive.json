@@ -4483,6 +4483,112 @@
     "checked": "2026-11-17T00:22:27.489Z",
     "from": 48.28
    }
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "Street Car Super Nationals (SCSN)",
+   "date": "2026-11-20",
+   "time": "",
+   "url": "https://streetcarsupernationals.com/las-vegas-spectator-tickets/",
+   "type": "sports"
+  },
+  {
+   "venue": "Allegiant Stadium",
+   "title": "NIAA State Championships",
+   "date": "2026-11-20",
+   "time": "09:00",
+   "url": "https://www.allegiantstadium.com/events/detail/niaa-state-championships-26",
+   "type": "sports"
+  },
+  {
+   "venue": "Dolby Live",
+   "title": "Pro Padel League MGM Las Vegas",
+   "date": "2026-11-20",
+   "time": "14:00:00",
+   "url": "https://www.ticketmaster.com/pro-padel-league-mgm-las-vegas-las-vegas-nevada-11-20-2026/event/2E006546DBFF824E",
+   "type": "sports",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-17T00:38:00.086Z",
+    "from": 139.39
+   }
+  },
+  {
+   "venue": "Grey Witch",
+   "title": "Leanna Firestone's Victory Lap Tour",
+   "date": "2026-11-20",
+   "time": "17:00",
+   "url": "https://dice.fm/event/6ab33d8317e1e600014c560d",
+   "end": "21:00",
+   "type": "concert"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "Senses Fail Presents Still Searching",
+   "date": "2026-11-20",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/senses-fail-presents-still-searching-las-vegas-nevada-11-20-2026/event/170064CC6ED75C3E",
+   "type": "concert",
+   "tickets": {
+    "box": 0,
+    "resale": 0,
+    "checked": "2026-11-17T00:38:20.270Z",
+    "from": 51.87
+   },
+   "soldOut": true
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "Human Nature Back To The Sound of Motown",
+   "date": "2026-11-20",
+   "time": "19:00",
+   "url": "https://am.ticketmaster.com/southpoint/buy?id=MjA3",
+   "type": "concert"
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "Human Nature: Back To The Sound Of Motown",
+   "date": "2026-11-20",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/human-nature-back-to-the-sound-las-vegas-nevada-11-20-2026/event/17006514C104FA42",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-17T00:38:40.435Z",
+    "from": 48.28
+   }
+  },
+  {
+   "venue": "House of Blues",
+   "title": "Phil Stendek",
+   "date": "2026-11-20",
+   "time": "20:00",
+   "url": "",
+   "type": "concert"
+  },
+  {
+   "venue": "Pearl Concert Theater",
+   "title": "Ivy Queen",
+   "date": "2026-11-20",
+   "time": "20:00:00",
+   "url": "https://www.axs.com/events/1632107/ivy-queen-tickets?skin=palmscasinoresort",
+   "type": "concert"
+  },
+  {
+   "venue": "Fontainebleau",
+   "title": "Marc Anthony - Vegas... My Way!",
+   "date": "2026-11-20",
+   "time": "22:00:00",
+   "url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-11-20-2026/event/17006481D438EC9D",
+   "type": "concert",
+   "tickets": {
+    "box": 628,
+    "resale": 87,
+    "checked": "2026-11-17T00:38:42.942Z",
+    "from": 79
+   }
   }
  ]
 }
