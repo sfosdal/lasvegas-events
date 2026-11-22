@@ -4589,6 +4589,114 @@
     "checked": "2026-11-17T00:38:42.942Z",
     "from": 79
    }
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "Street Car Super Nationals (SCSN)",
+   "date": "2026-11-21",
+   "time": "",
+   "url": "https://streetcarsupernationals.com/las-vegas-spectator-tickets/",
+   "type": "sports"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "Vegas Drift",
+   "date": "2026-11-21",
+   "time": "",
+   "url": "https://www.lvms.com/events/",
+   "type": "sports"
+  },
+  {
+   "venue": "Dolby Live",
+   "title": "Pro Padel League MGM Las Vegas",
+   "date": "2026-11-21",
+   "time": "14:00:00",
+   "url": "https://www.ticketmaster.com/pro-padel-league-mgm-las-vegas-las-vegas-nevada-11-21-2026/event/2E006546DC068253",
+   "type": "sports",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-21T00:51:35.433Z",
+    "from": 191.11
+   }
+  },
+  {
+   "venue": "Grey Witch",
+   "title": "Igor & The Red Elvises",
+   "date": "2026-11-21",
+   "time": "19:00",
+   "url": "https://dice.fm/event/6a2d8f533674df00013caa0f",
+   "end": "23:00",
+   "type": "concert"
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "Human Nature Back To The Sound of Motown",
+   "date": "2026-11-21",
+   "time": "19:00",
+   "url": "https://am.ticketmaster.com/southpoint/buy?id=MjA3",
+   "type": "concert"
+  },
+  {
+   "venue": "Westgate International Theater",
+   "title": "Leonid & Friends",
+   "date": "2026-11-21",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/leonid-friends-las-vegas-nevada-11-21-2026/event/170064291BC0D157",
+   "type": "concert"
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "Human Nature: Back To The Sound Of Motown",
+   "date": "2026-11-21",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/human-nature-back-to-the-sound-las-vegas-nevada-11-21-2026/event/17006514C106FA49",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-21T00:52:15.850Z",
+    "from": 48.28
+   }
+  },
+  {
+   "venue": "The Usual Place",
+   "title": "Oct (On Company Time) w/ Billy Marchiafava",
+   "date": "2026-11-21",
+   "time": "20:00",
+   "url": "https://dice.fm/event/699f3ca33be58e0001bb47b7",
+   "end": "23:30",
+   "type": "concert"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "Phil Stendek",
+   "date": "2026-11-21",
+   "time": "20:00",
+   "url": "",
+   "type": "concert"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "Reggae Fest Vegas at The House Of Blues Las Vegas",
+   "date": "2026-11-21",
+   "time": "21:00:00",
+   "url": "https://www.universe.com/events/reggae-fest-vegas-at-the-house-of-blues-las-vegas-tickets-7H9WLC?ref=ticketmaster",
+   "type": "concert"
+  },
+  {
+   "venue": "Fontainebleau",
+   "title": "Marc Anthony - Vegas... My Way!",
+   "date": "2026-11-21",
+   "time": "22:00:00",
+   "url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-11-21-2026/event/17006481D43EECAE",
+   "type": "concert",
+   "tickets": {
+    "box": 540,
+    "resale": 79,
+    "checked": "2026-11-21T00:52:19.875Z",
+    "from": 79
+   }
   }
  ]
 }
