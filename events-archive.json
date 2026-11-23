@@ -4430,7 +4430,7 @@
    "title": "Street Car Super Nationals (SCSN)",
    "date": "2026-11-19",
    "time": "",
-   "url": "https://streetcarsupernationals.com/las-vegas-spectator-tickets/",
+   "url": "https://www.lvms.com/events/",
    "type": "sports"
   },
   {
@@ -4489,7 +4489,7 @@
    "title": "Street Car Super Nationals (SCSN)",
    "date": "2026-11-20",
    "time": "",
-   "url": "https://streetcarsupernationals.com/las-vegas-spectator-tickets/",
+   "url": "https://www.lvms.com/events/",
    "type": "sports"
   },
   {
@@ -4595,7 +4595,7 @@
    "title": "Street Car Super Nationals (SCSN)",
    "date": "2026-11-21",
    "time": "",
-   "url": "https://streetcarsupernationals.com/las-vegas-spectator-tickets/",
+   "url": "https://www.lvms.com/events/",
    "type": "sports"
   },
   {
@@ -4697,6 +4697,58 @@
     "checked": "2026-11-21T00:52:19.875Z",
     "from": 79
    }
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "Street Car Super Nationals (SCSN)",
+   "date": "2026-11-22",
+   "time": "",
+   "url": "https://www.lvms.com/events/",
+   "type": "sports"
+  },
+  {
+   "venue": "House of Blues",
+   "title": "Gospel Brunch",
+   "date": "2026-11-22",
+   "time": "10:00:00",
+   "url": "https://www.ticketmaster.com/gospel-brunch-las-vegas-nevada-11-22-2026/event/1700652C0F87E96B",
+   "type": "concert"
+  },
+  {
+   "venue": "Brooklyn Bowl",
+   "title": "The Amity Affliction: House Of Cards 2026",
+   "date": "2026-11-22",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/the-amity-affliction-house-of-cards-las-vegas-nevada-11-22-2026/event/170064E97F256AEA",
+   "type": "concert",
+   "tickets": {
+    "box": 1685,
+    "resale": 0,
+    "checked": "2026-11-17T01:25:30.395Z",
+    "from": 37.5
+   }
+  },
+  {
+   "venue": "South Point Showroom",
+   "title": "Human Nature: Back To The Sound Of Motown",
+   "date": "2026-11-22",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/human-nature-back-to-the-sound-las-vegas-nevada-11-22-2026/event/17006514C108FA4C",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-17T01:25:50.635Z",
+    "from": 48.28
+   }
+  },
+  {
+   "venue": "House of Blues",
+   "title": "Michael Grimm",
+   "date": "2026-11-22",
+   "time": "20:00",
+   "url": "",
+   "type": "concert"
   }
  ]
 }
