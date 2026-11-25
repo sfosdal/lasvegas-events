@@ -4762,6 +4762,36 @@
      "MW+"
     ]
    }
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "Thanksgiving E.T. Bracket Nationals",
+   "date": "2026-11-24",
+   "time": "",
+   "url": "https://www.lvms.com/events/et-bracket-series/",
+   "type": "sports"
+  },
+  {
+   "venue": "Michelob ULTRA Arena",
+   "title": "Players Era 16 Men's Tournament - Session 2  (Time TBA)",
+   "date": "2026-11-24",
+   "time": "18:00:00",
+   "url": "https://mandalaybay.mgmresorts.com/en/entertainment.html"
+  },
+  {
+   "venue": "T-Mobile Arena",
+   "title": "T-Mobile Arena Players Era 16 Men's Tournament - Session 2 (Gonzaga vs Kansas St, Baylor vs Alabama)",
+   "date": "2026-11-24",
+   "time": "19:00:00",
+   "url": "https://www.t-mobilearena.com/events"
+  },
+  {
+   "venue": "Reynolds Hall",
+   "title": "Elf the Musical (Touring)",
+   "date": "2026-11-24",
+   "time": "19:30:00",
+   "url": "https://www.thesmithcenter.com/venue/reynolds-hall/",
+   "type": "arts"
   }
  ]
 }
