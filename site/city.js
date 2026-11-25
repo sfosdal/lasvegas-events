@@ -366,7 +366,7 @@
       cssVar: '--v-ballpark',
       color: '#86eae6',
       url: 'https://www.milb.com/las-vegas/schedule',
-      icon: 'marks/venues/milb.com.png',
+      icon: 'marks/venues/las-vegas.svg',
       tm: { id: 'KovZ917ALsI', match: 'ballpark', fallbackUrl: 'https://www.milb.com/las-vegas/schedule', exclude: /parking/i },
       alias: /las vegas ballpark/i,
     },
