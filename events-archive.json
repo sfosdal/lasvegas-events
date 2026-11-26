@@ -4792,6 +4792,46 @@
    "time": "19:30:00",
    "url": "https://www.thesmithcenter.com/venue/reynolds-hall/",
    "type": "arts"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "Thanksgiving E.T. Bracket Nationals",
+   "date": "2026-11-25",
+   "time": "",
+   "url": "https://www.lvms.com/events/et-bracket-series/",
+   "type": "sports"
+  },
+  {
+   "venue": "Reynolds Hall",
+   "title": "Elf the Musical (Touring)",
+   "date": "2026-11-25",
+   "time": "14:00:00",
+   "url": "https://www.thesmithcenter.com/venue/reynolds-hall/",
+   "type": "arts"
+  },
+  {
+   "venue": "T-Mobile Arena",
+   "title": "Duke Blue Devils Mens Basketball vs. UConn Huskies Mens Basketball",
+   "date": "2026-11-25",
+   "time": "16:00:00",
+   "url": "https://www.t-mobilearena.com/events",
+   "type": "sports"
+  },
+  {
+   "venue": "Lee's Family Forum",
+   "title": "Henderson Silver Knights vs. Abbotsford Canucks",
+   "date": "2026-11-25",
+   "time": "19:00:00",
+   "url": "https://www.leesfamilyforum.com/events",
+   "type": "sports"
+  },
+  {
+   "venue": "Reynolds Hall",
+   "title": "Elf the Musical (Touring)",
+   "date": "2026-11-25",
+   "time": "19:30:00",
+   "url": "https://www.thesmithcenter.com/venue/reynolds-hall/",
+   "type": "arts"
   }
  ]
 }
