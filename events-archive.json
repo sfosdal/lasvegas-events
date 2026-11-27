@@ -4832,6 +4832,28 @@
    "time": "19:30:00",
    "url": "https://www.thesmithcenter.com/venue/reynolds-hall/",
    "type": "arts"
+  },
+  {
+   "venue": "Las Vegas Motor Speedway",
+   "title": "Thanksgiving E.T. Bracket Nationals",
+   "date": "2026-11-26",
+   "time": "",
+   "url": "https://www.lvms.com/events/et-bracket-series/",
+   "type": "sports"
+  },
+  {
+   "venue": "T-Mobile Arena",
+   "title": "T-Mobile Arena Players Era 16 Men's Tournament - Session 4",
+   "date": "2026-11-26",
+   "time": "18:00:00",
+   "url": "https://www.t-mobilearena.com/events"
+  },
+  {
+   "venue": "Michelob ULTRA Arena",
+   "title": "Players Era 16 Men's Tournament - Session 4",
+   "date": "2026-11-26",
+   "time": "18:00:00",
+   "url": "https://mandalaybay.mgmresorts.com/en/entertainment.html"
   }
  ]
 }
